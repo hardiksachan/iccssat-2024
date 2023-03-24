@@ -1,0 +1,24 @@
+.section_hero {
+  background-color: orangered;
+  height: 95vh;
+
+  grid-column: center-start / center-end;
+}
+
+.section_tracks {
+  background-color: peachpuff;
+
+  grid-column: center-start / center-end;
+}
+
+.section_rules {
+  background-color: mediumpurple;
+
+  grid-column: center-start / center-end;
+}
+
+.section_organisingCommittee {
+  background-color: limegreen;
+
+  grid-column: center-start / center-end;
+}
