@@ -1,0 +1,12 @@
+@import "styles/abstract/variables";
+
+.Logo {
+  font-size: 4rem;
+  font-weight: 300;
+  letter-spacing: .8rem;
+
+  &___color {
+    font-weight: 400;
+    color: $color-primary;
+  }
+}

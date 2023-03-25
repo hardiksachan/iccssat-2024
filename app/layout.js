@@ -1,4 +1,5 @@
 import "@/styles/main.scss"
+import Navbar from "@/components/Navbar";
 
 export const metadata = {
     title: 'ICCSSAT 2024',
@@ -9,7 +10,7 @@ export default function RootLayout({children}) {
     return (
         <html lang="en">
         <body className="container">
-        {/* TODO: <Navbar /> */}
+        <Navbar/>
         {children}
         {/* TODO: <Footer />*/}
         </body>
