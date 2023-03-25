@@ -25,10 +25,22 @@
         display: block;
         width: 45wv;
         height: 2rem;
-        background-color: rgba($color-primary-light, .5);
+        background-color: rgba($color-primary-light, .3);
         border-radius: 1px;
         transform: translateY(-2.7rem) scaleX(1.1);
         position: relative;
         z-index: -5;
     }
+}
+
+.h3{
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+.p-track{
+    font-weight: 300;
+    margin-top: 2rem;
+    color: $color-primary-light;
 }
