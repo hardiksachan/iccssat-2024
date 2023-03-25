@@ -1,0 +1,83 @@
+
+.section_tracks {
+    grid-column: center-start / center-end;
+}
+
+.Intro{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    margin: 2rem;
+    padding: 2rem;
+
+    &_content{
+        background: transparent;
+        text-align: left;
+        padding: 2rem;
+    }
+
+    &_learnMore{
+        font-size: 2rem;
+        color: $color-primary-light;
+        text-decoration: none;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        transition: 0.2s;
+    }
+    &_learnMore:hover{
+        color: $color-primary-dark;
+        gap: 2rem;
+    }
+    &_learnMore::after{
+        content: ' ';
+    }
+}
+
+.IntroComposition {
+    position: relative;
+    margin: 2rem;
+    padding: 2rem;
+  
+    &_photo {
+      width: 55%;
+      height: 20vw;
+      box-shadow: 0 1.5rem 6rem rgba($color-black, .2);
+      position: absolute;
+      z-index: 10;
+      transition: all .2s;
+      outline-offset: 2rem;
+      object-fit: cover;
+  
+      &___p1 {
+        left: 0;
+        top: -2rem;
+  
+      }
+  
+      &___p2 {
+        right: 0;
+        top: 2rem;
+      }
+  
+      &___p3 {
+        left: 20%;
+        top: 10rem;
+  
+      }
+  
+      &:hover {
+        outline: 0.6rem solid $color-primary-light;
+        transform: scale(1.05) translateY(-.5rem);
+        box-shadow: 0 2.5rem 8rem rgba($color-black, .2);
+        z-index: 20;
+      }
+    }
+  
+    &:hover &_photo:not(:hover) {
+      transform: scale(.95);
+    }
+  }

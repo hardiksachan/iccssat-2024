@@ -1,3 +1,5 @@
+@import "../abstract/variables";
+
 .section_hero {
   background-color: orangered;
   height: 95vh;
@@ -5,11 +7,8 @@
   grid-column: center-start / center-end;
 }
 
-.section_tracks {
-  background-color: peachpuff;
-
-  grid-column: center-start / center-end;
-}
+@import "../pages/index-tracks";
+@import "../base/typography";
 
 .section_rules {
   background-color: mediumpurple;
@@ -22,3 +21,4 @@
 
   grid-column: center-start / center-end;
 }
+
