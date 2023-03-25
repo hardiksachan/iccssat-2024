@@ -51,7 +51,7 @@ const IndexPage = () => {
                         </li>
                         <li className={styles.TracksPath_events} id="date" data-date="Track - 03">
                             <h3 className="h3">Cloud Computing ans IoT</h3>
-                            <p className="p-track"></p> <p className="p-track">Dr. mashtaq Ahmed , Associate Professor <br/> MNIT Jaipur</p>    
+                            <p className="p-track"></p> <p className="p-track">Dr. Mashtaq Ahmed , Associate Professor <br/> MNIT Jaipur</p>    
                         </li>
                             
                         <li className={styles.TracksPath_events}  id="date" data-date="Track - 04">
