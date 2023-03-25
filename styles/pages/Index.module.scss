@@ -1,14 +1,7 @@
-@import "../abstract/variables";
+@import "styles/abstract/variables";
 
-.section_hero {
-  background-color: orangered;
-  height: 95vh;
-
-  grid-column: center-start / center-end;
-}
-
-@import "../pages/index-tracks";
-@import "../base/typography";
+@import "index-hero";
+@import "index-tracks";
 
 .section_rules {
   background-color: mediumpurple;

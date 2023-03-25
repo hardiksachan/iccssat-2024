@@ -4,15 +4,24 @@ import Image from "next/image"
 import img1 from "@/assets/img/tracks-intro-img-01.jpg"
 import img2 from "@/assets/img/tracks-intro-img-02.jpg"
 import img3 from "@/assets/img/tracks-intro-img-03.jpg"
+import NitdLogo from "@/assets/nitd-logo-labeled-blue.png"
+
 
 const IndexPage = () => {
     return (
         <>
-            <div className={styles.section_hero}>HERO</div>
+          <div className={styles.section_hero}>
+                <p className={styles.ConferenceHeading_pretext}>First International Conference on</p>
+                <h1 className={styles.ConferenceHeading_title}>Computationally Smart Systems &amp; Advanced
+                    Technologies</h1>
+                <h3 className={styles.ConferenceHeading_date}>March 2024</h3>
+                <figure className={styles.OrganisedBy}>
+                    <p className={styles.OrganisedBy_pretext}>Organised By</p>
+                    <Image src={NitdLogo} className={styles.OrganisedBy_logo}></Image>
+                </figure>
+            </div>
             <div className={styles.section_tracks}>
-                <h1 className="h1">WELCOME TO <span id="heading_span"> ICCSSAT 2024</span></h1>
-                {/* block_element___modifier */}
-                
+                <h1 className="h1">WELCOME TO <span id="heading_span"> ICCSSAT 2024</span></h1>              
                 <div className={styles.Intro}>
                     <div className={styles.Intro_content}>
 
@@ -30,7 +39,6 @@ const IndexPage = () => {
                     </div>
                 </div>
                 <h2 className="h2">Tracks</h2>
-                
             </div>
             <div className={styles.section_rules}>RULES</div>
             <div className={styles.section_organisingCommittee}>ORGANISING COMMITTEE</div>
