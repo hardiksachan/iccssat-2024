@@ -1,0 +1,95 @@
+@import "styles/abstract/variables";
+
+.Footer {
+  grid-column: full-start / full-end;
+
+  display: grid;
+  grid-template-columns: minmax(6rem, 1fr) repeat(2, [col-start] minmax(min-content, 72rem) [col-end]) minmax(6rem, 1fr);
+
+  background-color: $color-grey-dark-3;
+  padding: 8rem 0;
+  color: $color-white;
+}
+
+.Address,
+.ContactUs {
+  display: grid;
+  gap: 1.5rem;
+  align-items: center;
+
+  &_heading, &_icon {
+    font-size: 2.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+  }
+
+  &_icon {
+    grid-column: 1 / span 1;
+  }
+
+  &_heading {
+    grid-column: 2 / span 1;
+    padding-bottom: .3rem;
+  }
+}
+
+.Address {
+  grid-column: col-start 1 / col-end 1;
+  grid-template-columns: repeat(2, max-content);
+
+  &_content {
+    grid-column: 2 / span 1;
+  }
+
+  &_line {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.8;
+  }
+}
+
+.ContactUs {
+  grid-column: col-start 2 / col-end 2;
+  grid-template-columns: repeat(3, max-content);
+
+  &_list {
+    align-self: start;
+
+    &___phone {
+      grid-column: 2 / span 1;
+    }
+
+    &___email {
+      grid-column: 3 / span 1;
+    }
+  }
+
+  &_item {
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.8;
+  }
+}
+
+.CreatedBy {
+  grid-column: full-start / full-end;
+
+  background-color: $color-grey-dark-3;
+  padding: 1rem 0;
+  color: $color-white;
+
+  text-align: center;
+  font-size: 1.2rem;
+
+  &_link {
+    &,
+    &:link,
+    &:visited {
+      text-transform: uppercase;
+      color: $color-grey-light-1;
+      text-decoration: underline;
+    }
+  }
+}
