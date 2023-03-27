@@ -1,5 +1,5 @@
 import styles from "@/styles/components/Footer.module.scss"
-import {ImLocation} from "react-icons/im"
+import {ImLocation, ImPhone} from "react-icons/im"
 
 const Footer = () => {
     return (
@@ -23,7 +23,7 @@ const Footer = () => {
 
                 <div className={styles.ContactUs}>
                     <div className={styles.ContactUs_icon}>
-                        <ImLocation/>
+                        <ImPhone/>
                     </div>
                     <h3 className={styles.ContactUs_heading}>ContactUs</h3>
                     <ul className={`${styles.ContactUs_list} ${styles.ContactUs_list___phone}`}>
