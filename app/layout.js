@@ -1,5 +1,6 @@
 import "@/styles/main.scss"
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata = {
     title: 'ICCSSAT 2024',
@@ -12,7 +13,7 @@ export default function RootLayout({children}) {
         <body className="container">
         <Navbar/>
         {children}
-        {/* TODO: <Footer />*/}
+        <Footer />
         </body>
         </html>
     )
