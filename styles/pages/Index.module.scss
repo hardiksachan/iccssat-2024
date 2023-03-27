@@ -1,12 +1,7 @@
 @import "styles/abstract/variables";
 
 @import "index-hero";
-
-.section_tracks {
-  background-color: peachpuff;
-
-  grid-column: center-start / center-end;
-}
+@import "index-tracks";
 
 .section_rules {
   background-color: mediumpurple;
@@ -19,3 +14,4 @@
 
   grid-column: center-start / center-end;
 }
+
