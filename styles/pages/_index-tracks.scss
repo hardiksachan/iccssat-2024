@@ -1,6 +1,7 @@
 
 .section_tracks {
     grid-column: center-start / center-end;
+    margin-top: 6rem;
 }
 
 .Intro{
@@ -37,11 +38,12 @@
 .IntroComposition {
     position: relative;
     margin: 2rem;
+    margin-top: 6rem;
     padding: 2rem;
   
     &_photo {
-      width: 55%;
-      height: 20vw;
+      width: 45%;
+      height: 16vw;
       box-shadow: 0 1.5rem 6rem rgba($color-black, .2);
       position: absolute;
       z-index: 10;
@@ -51,18 +53,18 @@
   
       &___p1 {
         left: 0;
-        top: -2rem;
+        top: -1.6rem;
   
       }
   
       &___p2 {
-        right: 0;
-        top: 2rem;
+        right: 8%;
+        top: 1.6rem;
       }
   
       &___p3 {
         left: 20%;
-        top: 10rem;
+        top: 8rem;
   
       }
   
