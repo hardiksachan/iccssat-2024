@@ -13,7 +13,8 @@ html {
 body {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  background-color: #212121;
+  background-color: $color-grey-dark-3;
+  color: $color-grey-light-1;
 }
 
 .container {
