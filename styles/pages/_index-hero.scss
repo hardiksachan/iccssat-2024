@@ -1,15 +1,15 @@
 .section_hero {
-  grid-column: full-start / full-end;
+  grid-column: center-start / center-end;
 
   padding: 4rem 0;
   height: 85vh;
   backface-visibility: hidden;
 
-  @include default-grid;
-  grid-template-rows: 1fr min-content 1fr min-content min-content 1fr min-content min-content;
-  justify-items: center;
-
-  text-align: center;
+  display: grid;
+  grid-template-columns: [center-start] repeat(2, [col-start] 1fr [col-end]) [center-end];
+  grid-template-rows: 1fr min-content 2fr repeat(2, min-content) 1fr repeat(2, min-content) 2fr;
+  grid-column-gap: 6rem;
+  justify-items: start;
 }
 
 .Hero {
@@ -25,7 +25,7 @@
 
   &_pretext {
     grid-row: 4 / span 1;
-    grid-column: center-start / center-end;
+    grid-column: center-start / col-end 1;
 
     text-transform: uppercase;
     font-size: 2rem;
@@ -50,7 +50,7 @@
 
   &_name {
     grid-row: 5 / span 1;
-    grid-column: center-start / center-end;
+    grid-column: center-start / col-end 1;
 
     text-transform: lowercase;
     font-size: 4rem;
@@ -60,9 +60,6 @@
 
   &_date,
   &_place {
-    text-align: start;
-    justify-self: start;
-
     text-transform: uppercase;
     font-weight: 300;
     font-size: 2rem;
@@ -77,12 +74,17 @@
 
   &_date {
     grid-row: 7 / span 1;
-    grid-column: center-start / col-end 4;
+    grid-column: center-start / col-end 1;
   }
 
   &_place {
     grid-row: 8 / span 1;
-    grid-column: center-start / col-end 4;
+    grid-column: center-start / col-end 1;
+  }
+
+  &_gallery {
+    grid-row: 4 / -1;
+    grid-column: col-start 2 / center-end;
   }
 }
 
