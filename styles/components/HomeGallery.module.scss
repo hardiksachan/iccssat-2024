@@ -1,3 +1,5 @@
+@import "styles/abstract/variables";
+
 .Gallery {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -58,5 +60,6 @@
     display: block;
 
     border-radius: .8rem;
+    box-shadow: 0 1rem 4rem rgba($color-white, .08);
   }
 }
