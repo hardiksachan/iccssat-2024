@@ -7,6 +7,7 @@ import img3 from "@/assets/img/tracks-intro-img-03.jpg"
 import NitdLogo from "@/assets/nitd-logo-labeled-blue.png"
 import { BsFillCalendarEventFill } from "react-icons/bs";
 import { FaLocationArrow } from "react-icons/fa";
+import dataMining from "@/assets/img/Data-mining.jpg";
 
 
 const IndexPage = () => {
@@ -68,6 +69,8 @@ const IndexPage = () => {
                         </li>
                     </ul>
                 </div>
+                
+                
                 
             </div>
             <div className={styles.section_rules}>RULES</div>
