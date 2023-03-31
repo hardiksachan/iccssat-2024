@@ -43,37 +43,6 @@ const IndexPage = () => {
                     </div>
                 </div>
                 <h2 className="h2">Tracks</h2>
-                <div className={styles.TracksPath}>
-                    <ul className={styles.TracksPath_Timeline}>
-                        <li className={styles.TracksPath_events} data-date="Track - 01">
-                            <h3 className="h3">Data Analytics and Mining</h3>
-                            <p className="p-track">Prof. Vikram Goyal , Professor  IIIT Delhi</p>
-                            <p className="p-track">Prof.MayankVastaandProf.RichaSingh , IITjodhpur</p>
-                        </li>
-                        <li className={styles.TracksPath_events} data-date="Track - 02">
-                            <h3 className="h3">Cryptography and Network Security</h3>
-                            <p className="p-track">Prof. Harsh K. Verma , Professor , Department Of Computer Science <br/>  NIT Jalandhar</p>
-                            <p className="p-track">Prof.ManojKumar , Professor , ComputerScienceEngineering <br/>  NIT Jalandhar</p>        
-                        </li>
-                        <li className={styles.TracksPath_events} id="date" data-date="Track - 03">
-                            <h3 className="h3">Cloud Computing and IoT</h3>
-                            <p className="p-track"></p> <p className="p-track">Dr. Mashtaq Ahmed , Associate Professor <br/> MNIT Jaipur</p>    
-                        </li>
-                            
-                        <li className={styles.TracksPath_events}  id="date" data-date="Track - 04">
-                            <h3 className="h3">Artificial Intelligence and Machine Learning</h3>
-                            <p className="p-track"></p> <p className="p-track">Dr. Shailender Kumar , Associate Professor <br/> DTU , New Delhi</p>
-                            <p className="p-track"></p> <p className="p-track">Dr.YogeshKumarMeena,AssociateProfessor <br/> MNIT Jaipur</p>        
-                        </li>
-                            
-                        <li className={styles.TracksPath_events}  id="date" data-date="Track - 05">
-                            <h3 className="h3">Cyber Security Security</h3>
-                            <p className="p-track"></p> <p className="p-track">Dr. Deepak Singh Tomar , Associate Professor <br/> NIT Bhopal</p>
-                            <p className="p-track"></p> <p className="p-track">Prof. Mayank Dave , Professor <br/> NIT Kurukshetra</p>        
-                        </li>
-                    </ul>
-                </div>
-                
                 <div className={styles.cardContainer} id="cards">
                     <div className={styles.card}>
                         <div className={styles.card_front}>
