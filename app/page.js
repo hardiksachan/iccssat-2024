@@ -8,8 +8,6 @@ import IccssatLogo from "@/assets/iccssat-logo.png"
 import { BsFillCalendarEventFill } from "react-icons/bs";
 import { FaLocationArrow } from "react-icons/fa";
 import HomeGallery from "@/components/HomeGallery";
-import CommitteeMember from "@/components/CommitteeMember";
-import dataMining from "@/assets/img/Data-mining.jpg";
 import Subcommittee from "@/components/Subcommittee";
 import committee from "@/app/committee";
 
@@ -19,7 +17,7 @@ const IndexPage = () => {
         <>
           <div className={styles.section_hero}>
               <Image src={IccssatLogo} alt="ICCSSAT" className={styles.Hero_logo}/>
-              <p className={styles.Hero_pretext}>The first International Conference on</p>
+              <p className={styles.Hero_pretext}>I<sup>st</sup> International Conference on</p>
               <h1 className={styles.Hero_name}>Computationally Smart Systems &amp; Advanced Technologies</h1>
               <div className={`${styles.Hero_date}`}><BsFillCalendarEventFill/> 24 - 26 March 2024</div>
               <div className={styles.Hero_place}><FaLocationArrow/>NIT Delhi, India</div>
