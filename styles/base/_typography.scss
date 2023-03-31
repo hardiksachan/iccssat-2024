@@ -41,6 +41,7 @@
 }
 
 .p-track{
+    font-size: 1.4rem;
     font-weight: 300;
     margin-top: 2rem;
     color: $color-primary-light;
@@ -53,7 +54,6 @@
     font-weight: bold;
     font-size: 2rem;
     text-size-adjust: inherit;
-    text-transform: uppercase;
 }
 .card-h2{
     text-align: center;
@@ -61,11 +61,12 @@
     font-size: 2rem;
     text-size-adjust: inherit;
     text-transform: uppercase;
+    color: white;
 }
 .card-p{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 #card-btn{
     width: 40%;
@@ -83,11 +84,8 @@
     text-decoration: none;
     color: white;
 }
-#card-a:hover{
-    color: $color-primary-dark;
-}
 .p-popup{
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 0;
     line-height: 1.5;
     color: #121212;

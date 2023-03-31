@@ -41,7 +41,7 @@ const Footer = () => {
                 <p className={styles.CreatedBy_line}>Designed &amp; Developed by <a className={styles.CreatedBy_link}
                                                                                     href="https://hardiksachan.com">Hardik</a>, <a
                     className={styles.CreatedBy_link} href="#">Shivansh</a>,&nbsp;
-                    <a className={styles.CreatedBy_link} href="#">Sudhanshu</a> &amp; <a
+                    <a className={styles.CreatedBy_link} href="https://www.linkedin.com/in/sudhanshu-shrivastava-88853b246/">Sudhanshu</a> &amp; <a
                         className={styles.CreatedBy_link} href="#">Satwik</a></p>
             </div>
         </>
