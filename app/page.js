@@ -54,7 +54,7 @@ const IndexPage = () => {
                             <p className="p-track">Prof. Harsh K. Verma , Professor , Department Of Computer Science <br/>  NIT Jalandhar</p>    
                         </li>
                         <li className={styles.TracksPath_events} id="date" data-date="Track - 03">
-                            <h3 className="h3">Cloud Computing ans IoT</h3>
+                            <h3 className="h3">Cloud Computing and IoT</h3>
                             <p className="p-track"></p> <p className="p-track">Dr. Mashtaq Ahmed , Associate Professor <br/> MNIT Jaipur</p>    
                         </li>
                             
@@ -134,7 +134,7 @@ const IndexPage = () => {
                         <h2 className="card-h2-front">Heading</h2>
                         </div>
                         <div className={styles.card_back}>
-                            <h2 className="card-h2">Cloud Computing ans IoT</h2>
+                            <h2 className="card-h2">Cloud Computing and IoT</h2>
                             <p className="card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci aperiam ullam at in temporibus, facilis eos tenetur, molestiae perspiciatis ducimus illo recusandae. Enim ea, pariatur dignissimos similique fugiat sed deserunt!</p>
                             <button id="card-btn"><a href="#popup-article-card03" id="card-a">Read more</a></button>
                         </div>
@@ -146,7 +146,7 @@ const IndexPage = () => {
                             <span class={styles.screen_reader}>close</span>
                         </a>  
                         <div class={styles.popup__content}>
-                            <h1 class={ `${styles.popup_title} ${styles.r_title}`}>Cloud Computing ans IoT</h1>
+                            <h1 class={ `${styles.popup_title} ${styles.r_title}`}>Cloud Computing and IoT</h1>
                             <p className="p-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam eaque optio vitae in explicabo recusandae sit id sapiente excepturi tempore, nemo, nulla odio deleniti rerum nisi perferendis aut molestias! Incidunt nesciunt iusto praesentium! In at maiores quibusdam enim quis, quam!</p>
                             <p className="p-popup">Architecto magni dolores cumque tenetur nemo id aperiam, ratione temporibus at, consectetur totam, fuga et illo rerum earum dicta. Vitae ullam harum enim aliquid hic commodi voluptas cumque iste ex accusantium architecto doloremque reprehenderit, asperiores vero dolor, esse inventore dolorem.</p>
                             <p className="p-popup">Excepturi eaque, reprehenderit dolores, cum molestias repellendus in expedita. Placeat totam, quos pariatur quidem explicabo id harum ab voluptatum. Necessitatibus, aliquam! Dolorum voluptatem ut laudantium excepturi cumque, hic iure impedit ullam accusantium error natus recusandae, quia fuga quo voluptates officiis?</p>    
