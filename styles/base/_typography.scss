@@ -79,3 +79,18 @@
 #card-btn:hover{
     transform: scaleX(1.1);
 }
+#card-a{
+    text-decoration: none;
+    color: white;
+}
+#card-a:hover{
+    color: $color-primary-dark;
+}
+.p-popup{
+    font-size: 1.5rem;
+    margin: 0;
+    line-height: 1.5;
+}
+.p-popup:nth-child(n+2){
+    margin-top: 1rem;
+}
