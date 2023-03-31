@@ -302,7 +302,7 @@
 
 .popup::after{
   will-change: width, opacity;
-  animation: line-animation .6s cubic-bezier(0.83, 0.04, 0, 1.16) both;
+  animation: line-animation .5s cubic-bezier(0.83, 0.04, 0, 1.16) both;
 }
 
 @keyframes line-animation{
