@@ -3,16 +3,10 @@
 
 @import "index-hero";
 @import "index-tracks";
+@import "index-organising-committee";
 
 .section_rules {
   background-color: mediumpurple;
 
   grid-column: center-start / center-end;
 }
-
-.section_organisingCommittee {
-  background-color: limegreen;
-
-  grid-column: center-start / center-end;
-}
-

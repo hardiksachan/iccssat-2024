@@ -8,9 +8,17 @@ import IccssatLogo from "@/assets/iccssat-logo.png"
 import { BsFillCalendarEventFill } from "react-icons/bs";
 import { FaLocationArrow } from "react-icons/fa";
 import HomeGallery from "@/components/HomeGallery";
+import CommitteeMember from "@/components/CommitteeMember";
 
 
 const IndexPage = () => {
+    const director = {
+        name: "Dr. Ajay K Sharma",
+        img: img1,
+        designation: "Director",
+        affiliation: "National Institute of Technology, Delhi"
+    }
+
     return (
         <>
           <div className={styles.section_hero}>
@@ -70,8 +78,12 @@ const IndexPage = () => {
                 </div>
                 
             </div>
-            <div className={styles.section_rules}>RULES</div>
-            <div className={styles.section_organisingCommittee}>ORGANISING COMMITTEE</div>
+            {/* TODO: <div className={styles.section_rules}>RULES</div>*/}
+            <div className={styles.OrganisingCommittee}>
+                <h2 className={`h2 ${styles.OrganisingCommittee_heading}`}>Organising Committee</h2>
+                <h3 className={`h3 ${styles.OrganisingCommittee_categoryHeading___chiefPatron}`}>Chief Patron</h3>
+                <CommitteeMember member={director} className={styles.OrganisingCommittee_member___director} />
+            </div>
         </>
     )
 }
