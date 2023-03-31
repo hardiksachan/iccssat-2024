@@ -7,6 +7,7 @@ import img3 from "@/assets/img/tracks-intro-img-03.jpg"
 import IccssatLogo from "@/assets/iccssat-logo.png"
 import { BsFillCalendarEventFill } from "react-icons/bs";
 import { FaLocationArrow } from "react-icons/fa";
+import HomeGallery from "@/components/HomeGallery";
 import dataMining from "@/assets/img/Data-mining.jpg";
 
 
@@ -18,7 +19,10 @@ const IndexPage = () => {
               <p className={styles.Hero_pretext}>The first International Conference on</p>
               <h1 className={styles.Hero_name}>Computationally Smart Systems &amp; Advanced Technologies</h1>
               <div className={`${styles.Hero_date}`}><BsFillCalendarEventFill/> 24 - 26 March 2024</div>
-              <div className={styles.Hero_place}><FaLocationArrow/>National Institute of Technology Delhi, India</div>
+              <div className={styles.Hero_place}><FaLocationArrow/>NIT Delhi, India</div>
+              <div className={styles.Hero_gallery}>
+                  <HomeGallery />
+              </div>
             </div>
             <div className={styles.section_tracks}>
                 <h1 className="h1 mb-sm">WELCOME TO <span id="heading_span"> ICCSSAT 2024</span></h1>              
@@ -121,7 +125,7 @@ const IndexPage = () => {
                     </div>
                 </div>
 
-                
+
             </div>
             <div className={styles.section_rules}>RULES</div>
             <div className={styles.section_organisingCommittee}>ORGANISING COMMITTEE</div>
