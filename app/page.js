@@ -8,7 +8,10 @@ import IccssatLogo from "@/assets/iccssat-logo.png"
 import { BsFillCalendarEventFill } from "react-icons/bs";
 import { FaLocationArrow } from "react-icons/fa";
 import HomeGallery from "@/components/HomeGallery";
+import CommitteeMember from "@/components/CommitteeMember";
 import dataMining from "@/assets/img/Data-mining.jpg";
+import Subcommittee from "@/components/Subcommittee";
+import committee from "@/app/committee";
 
 
 const IndexPage = () => {
@@ -219,8 +222,13 @@ const IndexPage = () => {
 
 
             </div>
-            <div className={styles.section_rules}>RULES</div>
-            <div className={styles.section_organisingCommittee}>ORGANISING COMMITTEE</div>
+            {/* TODO: <div className={styles.section_rules}>RULES</div>*/}
+            <div className={styles.OrganisingCommittee}>
+                <h2 className={`h2 ${styles.OrganisingCommittee_heading}`}>Organising Committee</h2>
+                {committee.map(function (subcommittee) {
+                    return <Subcommittee title={subcommittee.title} members={subcommittee.members} />
+                })}
+            </div>
         </>
     )
 }
