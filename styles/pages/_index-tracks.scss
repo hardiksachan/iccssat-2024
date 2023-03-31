@@ -243,7 +243,7 @@
     content: "";
     box-sizing: border-box;
     width: 100%;
-    background-color: #fff;
+    background-color: $color-primary;
 
     position: fixed;
     left: 0;
@@ -254,7 +254,7 @@
     content: "";
     width: 0;
     height: 2px;
-    background-color: #f0f0f0;
+    background-color: $color-primary;
 
     position: absolute;
     top: 50%;
@@ -280,7 +280,7 @@
   &_title{
     --rTitleMarginBottom: 1.5rem;
     font-size: 5rem;
-    color: $color-primary;
+    color: white;
   }
 
   &_close{

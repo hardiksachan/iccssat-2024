@@ -43,6 +43,8 @@ const IndexPage = () => {
                     </div>
                 </div>
                 <h2 className="h2">Tracks</h2>
+                
+                
                 <div className={styles.cardContainer} id="cards">
                     <div className={styles.card}>
                         <div className={styles.card_front}>
@@ -62,9 +64,11 @@ const IndexPage = () => {
                     </a>  
                     <div class={styles.popup__content}>
                         <h1 class={ `${styles.popup_title} ${styles.r_title}`}>Data Analytics and Mining</h1>
+                        <p className="p-track">Prof. Vikram Goyal , Professor  IIIT Delhi</p>
+                        <p className="p-track">Prof.MayankVasta and Prof.RichaSingh , IITjodhpur</p>
                         <p className="p-popup">All overtheworld, organizations areharnessingthetrue powerof data andanalytics strategies to optimizedecision-makingduringthis timeofever-presentdisruption.As adata analyticsthetrack scales cohesive ecosystems across theorganization to enhance skillswhileusing AIfor ethically managingdata and privacy</p>
                         <p className="p-popup">Implement strategies and innovationsbacked bydata, analytics and data science to navigate disruption. Lead purposefully by balancing trust, accountability, 
-governance and security with adaptability and responsiveness. Scale the purpose beyond organizational silos, across value chains and ecosystems to foster societal perseverance. Leveragecloud-based datamanagement to optimize costs in the current economic environment </p>
+                            governance and security with adaptability and responsiveness. Scale the purpose beyond organizational silos, across value chains and ecosystems to foster societal perseverance. Leveragecloud-based datamanagement to optimize costs in the current economic environment </p>
                     </div>
                     </div>
                 </div>
@@ -87,6 +91,8 @@ governance and security with adaptability and responsiveness. Scale the purpose 
                         </a>  
                         <div class={styles.popup__content}>
                             <h1 class={ `${styles.popup_title} ${styles.r_title}`}>Cryptography and Network Security</h1>
+                            <p className="p-track">Prof. Harsh K. Verma , Professor , Department Of Computer Science <br/>  NIT Jalandhar</p>
+                            <p className="p-track">Prof.Manoj Kumar , Professor , ComputerScienceEngineering <br/>  NIT Jalandhar</p>        
                             <p className="p-popup">Computer network security consists of measures taken by some organizations or businesses to monitor and avoid unauthorized access from outside attackers.In the initial days of the internet,its use was limited to development purposes.</p>
                             <p className="p-popup">The topics in the track include but are not limited to
                             Design and security analysis of cryptographic primitives and protocols, Novel applications of
@@ -121,6 +127,7 @@ governance and security with adaptability and responsiveness. Scale the purpose 
                         </a>  
                         <div class={styles.popup__content}>
                             <h1 class={ `${styles.popup_title} ${styles.r_title}`}>Cloud Computing and IoT</h1>
+                            <p className="p-track"></p> <p className="p-track">Dr. Mashtaq Ahmed , Associate Professor <br/> MNIT Jaipur</p>    
                             <p className="p-popup">The track has a vast expanse in the field Data Analytics, Distributed & Parallel Computing, High
                                 Performance Computing,Cloud Quality Management & Service level agreement,Cluster,Cloud,&
                                 Grid Computing, Mobile Computing, Edge Computing, Fog Computing, Cognitive Computing.</p>
@@ -158,6 +165,8 @@ governance and security with adaptability and responsiveness. Scale the purpose 
                         </a>  
                         <div class={styles.popup__content}>
                             <h1 class={ `${styles.popup_title} ${styles.r_title}`}>Artificial Intelligence and Machine Learning</h1>
+                            <p className="p-track"></p> <p className="p-track">Dr. Shailender Kumar , Associate Professor <br/> DTU , New Delhi</p>
+                            <p className="p-track"></p> <p className="p-track">Dr.Yogesh Kumar Meena , Associate Professor <br/> MNIT Jaipur</p>        
                             <p className="p-popup">The vast field of Artificial Intelligence and Machine learning deals with aspects of Signal
                             Processing, Audio and Speech Processing, Computer Vision, Natural Language Processing,
                             Supervised and unsupervised learning, Deep Learning, Data Mining, Generative Models,
@@ -195,6 +204,8 @@ governance and security with adaptability and responsiveness. Scale the purpose 
                         </a>  
                         <div class={styles.popup__content}>
                             <h1 class={ `${styles.popup_title} ${styles.r_title}`}>Cyber Security Security</h1>
+                            <p className="p-track"></p> <p className="p-track">Dr. Deepak Singh Tomar , Associate Professor <br/> NIT Bhopal</p>
+                            <p className="p-track"></p> <p className="p-track">Prof. Mayank Dave , Professor <br/> NIT Kurukshetra</p>        
                             <p className="p-popup">This track emphasizes on emerging research areas in cyber security and privacy. It includes cyber
                                 security concepts, threats in cyberspace, security standardization, security and privacy
                                 regulations and laws, cyber hacking, digitalforensics, Trust management, security andprivacy in
