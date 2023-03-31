@@ -48,10 +48,12 @@ const IndexPage = () => {
                         <li className={styles.TracksPath_events} data-date="Track - 01">
                             <h3 className="h3">Data Analytics and Mining</h3>
                             <p className="p-track">Prof. Vikram Goyal , Professor  IIIT Delhi</p>
+                            <p className="p-track">Prof.MayankVastaandProf.RichaSingh , IITjodhpur</p>
                         </li>
                         <li className={styles.TracksPath_events} data-date="Track - 02">
                             <h3 className="h3">Cryptography and Network Security</h3>
-                            <p className="p-track">Prof. Harsh K. Verma , Professor , Department Of Computer Science <br/>  NIT Jalandhar</p>    
+                            <p className="p-track">Prof. Harsh K. Verma , Professor , Department Of Computer Science <br/>  NIT Jalandhar</p>
+                            <p className="p-track">Prof.ManojKumar , Professor , ComputerScienceEngineering <br/>  NIT Jalandhar</p>        
                         </li>
                         <li className={styles.TracksPath_events} id="date" data-date="Track - 03">
                             <h3 className="h3">Cloud Computing and IoT</h3>
@@ -60,12 +62,14 @@ const IndexPage = () => {
                             
                         <li className={styles.TracksPath_events}  id="date" data-date="Track - 04">
                             <h3 className="h3">Artificial Intelligence and Machine Learning</h3>
-                            <p className="p-track"></p> <p className="p-track">Dr. Shailender Kumar , Associate Professor <br/> DTU , New Delhi</p>    
+                            <p className="p-track"></p> <p className="p-track">Dr. Shailender Kumar , Associate Professor <br/> DTU , New Delhi</p>
+                            <p className="p-track"></p> <p className="p-track">Dr.YogeshKumarMeena,AssociateProfessor <br/> MNIT Jaipur</p>        
                         </li>
                             
                         <li className={styles.TracksPath_events}  id="date" data-date="Track - 05">
                             <h3 className="h3">Cyber Security Security</h3>
-                            <p className="p-track"></p> <p className="p-track">Dr. Deepak Singh Tomar , Associate Professor <br/> NIT Bhopal</p>    
+                            <p className="p-track"></p> <p className="p-track">Dr. Deepak Singh Tomar , Associate Professor <br/> NIT Bhopal</p>
+                            <p className="p-track"></p> <p className="p-track">Prof. Mayank Dave , Professor <br/> NIT Kurukshetra</p>        
                         </li>
                     </ul>
                 </div>
@@ -73,11 +77,11 @@ const IndexPage = () => {
                 <div className={styles.cardContainer} id="cards">
                     <div className={styles.card}>
                         <div className={styles.card_front}>
-                        <h2 className="card-h2-front">Heading</h2>
+                        <h2 className="card-h2-front">Data Analytics and Mining</h2>
                         </div>
                         <div className={styles.card_back}>
                             <h2 className="card-h2">Data Analytics and Mining</h2>
-                            <p className="card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci aperiam ullam at in temporibus, facilis eos tenetur, molestiae perspiciatis ducimus illo recusandae. Enim ea, pariatur dignissimos similique fugiat sed deserunt!</p>
+                            <p className="card-p">All overtheworld, organizations areharnessingthetrue powerof data andanalytics strategies to optimizedecision-makingduringthis timeofever-presentdisruption.As adata analyticsthetrack scales cohesive ecosystems across theorganization to enhance skillswhileusing AIfor ethically managingdata and privacy...</p>
                             <button id="card-btn"><a href="#popup-article-card01" id="card-a">Read more</a></button>
                         </div>
                     </div>
@@ -89,24 +93,20 @@ const IndexPage = () => {
                     </a>  
                     <div class={styles.popup__content}>
                         <h1 class={ `${styles.popup_title} ${styles.r_title}`}>Data Analytics and Mining</h1>
-                        <p className="p-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam eaque optio vitae in explicabo recusandae sit id sapiente excepturi tempore, nemo, nulla odio deleniti rerum nisi perferendis aut molestias! Incidunt nesciunt iusto praesentium! In at maiores quibusdam enim quis, quam!</p>
-                        <p className="p-popup">Architecto magni dolores cumque tenetur nemo id aperiam, ratione temporibus at, consectetur totam, fuga et illo rerum earum dicta. Vitae ullam harum enim aliquid hic commodi voluptas cumque iste ex accusantium architecto doloremque reprehenderit, asperiores vero dolor, esse inventore dolorem.</p>
-                        <p className="p-popup">Excepturi eaque, reprehenderit dolores, cum molestias repellendus in expedita. Placeat totam, quos pariatur quidem explicabo id harum ab voluptatum. Necessitatibus, aliquam! Dolorum voluptatem ut laudantium excepturi cumque, hic iure impedit ullam accusantium error natus recusandae, quia fuga quo voluptates officiis?</p>    
-                        <p className="p-popup">Dignissimos debitis eos necessitatibus accusantium natus voluptates illo blanditiis corporis minus. Repudiandae libero quae, illo error expedita consectetur possimus voluptate eum esse quam molestiae tempore dignissimos ipsam similique ab quod. Ea earum adipisci rem voluptatem aliquid voluptatum deleniti necessitatibus provident.</p>
-                        <p className="p-popup">Dicta eum amet impedit maiores accusamus numquam saepe necessitatibus temporibus ut! Velit ducimus repellendus fuga repudiandae culpa voluptatibus delectus praesentium totam odit ratione, tenetur assumenda, labore esse et nostrum a, aut veritatis. Nihil, voluptas, impedit? Magnam dolorum, iure repellendus vitae.</p>
-                        <p className="p-popup">Temporibus voluptatum voluptatibus iste, nam atque dignissimos quam labore sequi adipisci tempore exercitationem quos, libero, reprehenderit facere quasi soluta, itaque at eum cum possimus! Facilis, tempora soluta at quis. Nemo expedita voluptate esse nam ex odit, sequi eveniet quibusdam, dolores?</p>
-                        <p className="p-popup">Praesentium laboriosam iste dolore cumque voluptatibus deleniti quia, delectus provident, illum aperiam, atque molestiae. Cum delectus, doloribus expedita eius veritatis assumenda deleniti veniam reprehenderit animi ut, eaque asperiores, dicta incidunt omnis repellendus dolorum enim inventore rerum voluptatem saepe error id.</p>
+                        <p className="p-popup">All overtheworld, organizations areharnessingthetrue powerof data andanalytics strategies to optimizedecision-makingduringthis timeofever-presentdisruption.As adata analyticsthetrack scales cohesive ecosystems across theorganization to enhance skillswhileusing AIfor ethically managingdata and privacy</p>
+                        <p className="p-popup">Implement strategies and innovationsbacked bydata, analytics and data science to navigate disruption. Lead purposefully by balancing trust, accountability, 
+governance and security with adaptability and responsiveness. Scale the purpose beyond organizational silos, across value chains and ecosystems to foster societal perseverance. Leveragecloud-based datamanagement to optimize costs in the current economic environment </p>
                     </div>
                     </div>
                 </div>
 
                     <div className={styles.card}>
                         <div className={styles.card_front}>
-                        <h2 className="card-h2-front">Heading</h2>
+                        <h2 className="card-h2-front">Cryptography and Network Security</h2>
                         </div>
                         <div className={styles.card_back}>
                             <h2 className="card-h2">Cryptography and Network Security</h2>
-                            <p className="card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci aperiam ullam at in temporibus, facilis eos tenetur, molestiae perspiciatis ducimus illo recusandae. Enim ea, pariatur dignissimos similique fugiat sed deserunt!</p>
+                            <p className="card-p">Computer network security consists of measures taken by some organizations or businesses to monitor and avoid unauthorized access from outside attackers.In the initial days of the internet,its use was limited to development purposes...</p>
                             <button id="card-btn"><a href="#popup-article-card02" id="card-a">Read more</a></button>
                         </div>
                     </div>
@@ -118,24 +118,29 @@ const IndexPage = () => {
                         </a>  
                         <div class={styles.popup__content}>
                             <h1 class={ `${styles.popup_title} ${styles.r_title}`}>Cryptography and Network Security</h1>
-                            <p className="p-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam eaque optio vitae in explicabo recusandae sit id sapiente excepturi tempore, nemo, nulla odio deleniti rerum nisi perferendis aut molestias! Incidunt nesciunt iusto praesentium! In at maiores quibusdam enim quis, quam!</p>
-                            <p className="p-popup">Architecto magni dolores cumque tenetur nemo id aperiam, ratione temporibus at, consectetur totam, fuga et illo rerum earum dicta. Vitae ullam harum enim aliquid hic commodi voluptas cumque iste ex accusantium architecto doloremque reprehenderit, asperiores vero dolor, esse inventore dolorem.</p>
-                            <p className="p-popup">Excepturi eaque, reprehenderit dolores, cum molestias repellendus in expedita. Placeat totam, quos pariatur quidem explicabo id harum ab voluptatum. Necessitatibus, aliquam! Dolorum voluptatem ut laudantium excepturi cumque, hic iure impedit ullam accusantium error natus recusandae, quia fuga quo voluptates officiis?</p>    
-                            <p className="p-popup">Dignissimos debitis eos necessitatibus accusantium natus voluptates illo blanditiis corporis minus. Repudiandae libero quae, illo error expedita consectetur possimus voluptate eum esse quam molestiae tempore dignissimos ipsam similique ab quod. Ea earum adipisci rem voluptatem aliquid voluptatum deleniti necessitatibus provident.</p>
-                            <p className="p-popup">Dicta eum amet impedit maiores accusamus numquam saepe necessitatibus temporibus ut! Velit ducimus repellendus fuga repudiandae culpa voluptatibus delectus praesentium totam odit ratione, tenetur assumenda, labore esse et nostrum a, aut veritatis. Nihil, voluptas, impedit? Magnam dolorum, iure repellendus vitae.</p>
-                            <p className="p-popup">Temporibus voluptatum voluptatibus iste, nam atque dignissimos quam labore sequi adipisci tempore exercitationem quos, libero, reprehenderit facere quasi soluta, itaque at eum cum possimus! Facilis, tempora soluta at quis. Nemo expedita voluptate esse nam ex odit, sequi eveniet quibusdam, dolores?</p>
-                            <p className="p-popup">Praesentium laboriosam iste dolore cumque voluptatibus deleniti quia, delectus provident, illum aperiam, atque molestiae. Cum delectus, doloribus expedita eius veritatis assumenda deleniti veniam reprehenderit animi ut, eaque asperiores, dicta incidunt omnis repellendus dolorum enim inventore rerum voluptatem saepe error id.</p>
+                            <p className="p-popup">Computer network security consists of measures taken by some organizations or businesses to monitor and avoid unauthorized access from outside attackers.In the initial days of the internet,its use was limited to development purposes.</p>
+                            <p className="p-popup">The topics in the track include but are not limited to
+                            Design and security analysis of cryptographic primitives and protocols, Novel applications of
+                            cryptography, Formal verification of cryptographic security properties, Cryptographic standards,
+                            Post-quantum cryptography, Hardware & software implementations, Cryptographic aspects of
+                            blockchains & cryptocurrencies, Cryptanalysis, Side-channel attacks and defenses.</p>
+                            <p className="p-popup">The track
+                            provides animportant newviewpoint on an established,major research area; support or challenge
+                            long-held beliefs in such an area with compelling evidence; or present a convincing,
+                            comprehensive new taxonomy of such an area.</p>    
                         </div>
                         </div>
                     </div>
 
                     <div className={styles.card}>
                         <div className={styles.card_front}>
-                        <h2 className="card-h2-front">Heading</h2>
+                        <h2 className="card-h2-front">Cloud Computing and IoT</h2>
                         </div>
                         <div className={styles.card_back}>
                             <h2 className="card-h2">Cloud Computing and IoT</h2>
-                            <p className="card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci aperiam ullam at in temporibus, facilis eos tenetur, molestiae perspiciatis ducimus illo recusandae. Enim ea, pariatur dignissimos similique fugiat sed deserunt!</p>
+                            <p className="card-p">The track has a vast expanse in the field Data Analytics, Distributed & Parallel Computing, High
+                                Performance Computing,Cloud Quality Management & Service level agreement,Cluster,Cloud,&
+                                Grid Computing, Mobile Computing, Edge Computing, Fog Computing, Cognitive Computing...</p>
                             <button id="card-btn"><a href="#popup-article-card03" id="card-a">Read more</a></button>
                         </div>
                     </div>
@@ -147,13 +152,17 @@ const IndexPage = () => {
                         </a>  
                         <div class={styles.popup__content}>
                             <h1 class={ `${styles.popup_title} ${styles.r_title}`}>Cloud Computing and IoT</h1>
-                            <p className="p-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam eaque optio vitae in explicabo recusandae sit id sapiente excepturi tempore, nemo, nulla odio deleniti rerum nisi perferendis aut molestias! Incidunt nesciunt iusto praesentium! In at maiores quibusdam enim quis, quam!</p>
-                            <p className="p-popup">Architecto magni dolores cumque tenetur nemo id aperiam, ratione temporibus at, consectetur totam, fuga et illo rerum earum dicta. Vitae ullam harum enim aliquid hic commodi voluptas cumque iste ex accusantium architecto doloremque reprehenderit, asperiores vero dolor, esse inventore dolorem.</p>
-                            <p className="p-popup">Excepturi eaque, reprehenderit dolores, cum molestias repellendus in expedita. Placeat totam, quos pariatur quidem explicabo id harum ab voluptatum. Necessitatibus, aliquam! Dolorum voluptatem ut laudantium excepturi cumque, hic iure impedit ullam accusantium error natus recusandae, quia fuga quo voluptates officiis?</p>    
-                            <p className="p-popup">Dignissimos debitis eos necessitatibus accusantium natus voluptates illo blanditiis corporis minus. Repudiandae libero quae, illo error expedita consectetur possimus voluptate eum esse quam molestiae tempore dignissimos ipsam similique ab quod. Ea earum adipisci rem voluptatem aliquid voluptatum deleniti necessitatibus provident.</p>
-                            <p className="p-popup">Dicta eum amet impedit maiores accusamus numquam saepe necessitatibus temporibus ut! Velit ducimus repellendus fuga repudiandae culpa voluptatibus delectus praesentium totam odit ratione, tenetur assumenda, labore esse et nostrum a, aut veritatis. Nihil, voluptas, impedit? Magnam dolorum, iure repellendus vitae.</p>
-                            <p className="p-popup">Temporibus voluptatum voluptatibus iste, nam atque dignissimos quam labore sequi adipisci tempore exercitationem quos, libero, reprehenderit facere quasi soluta, itaque at eum cum possimus! Facilis, tempora soluta at quis. Nemo expedita voluptate esse nam ex odit, sequi eveniet quibusdam, dolores?</p>
-                            <p className="p-popup">Praesentium laboriosam iste dolore cumque voluptatibus deleniti quia, delectus provident, illum aperiam, atque molestiae. Cum delectus, doloribus expedita eius veritatis assumenda deleniti veniam reprehenderit animi ut, eaque asperiores, dicta incidunt omnis repellendus dolorum enim inventore rerum voluptatem saepe error id.</p>
+                            <p className="p-popup">The track has a vast expanse in the field Data Analytics, Distributed & Parallel Computing, High
+                                Performance Computing,Cloud Quality Management & Service level agreement,Cluster,Cloud,&
+                                Grid Computing, Mobile Computing, Edge Computing, Fog Computing, Cognitive Computing.</p>
+                            <p className="p-popup">Implementing and complementing AI into your cloud strategy promises a journey of unlocking
+                            business potential and operating at greater agility and efficiency.Cost savings and enhanced data
+                            management are just some of the added bonuses that come with investing in the right technology
+                            and digital transformation roadmap.</p>
+                            <p className="p-popup">While the benefits are abundant,the obstacles in execution
+                            are as detrimental. Integration challenges, data privacy andconcerns around connectivity can be
+                            major setbacks toyour strategy.Hear from our experts on how you can successfully revolutionize
+                            your cloud computing solutions with AI andd is cover new paths of development</p>    
                         </div>
                         </div>
                     </div>
@@ -161,11 +170,14 @@ const IndexPage = () => {
                 <div className={styles.cardContainer}>
                     <div className={styles.card}>
                         <div className={styles.card_front}>
-                        <h2 className="card-h2-front">Heading</h2>
+                        <h2 className="card-h2-front">Artificial Intelligence and Machine Learning</h2>
                         </div>
                         <div className={styles.card_back}>
                             <h2 className="card-h2">Artificial Intelligence and Machine Learning</h2>
-                            <p className="card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci aperiam ullam at in temporibus, facilis eos tenetur, molestiae perspiciatis ducimus illo recusandae. Enim ea, pariatur dignissimos similique fugiat sed deserunt!</p>
+                            <p className="card-p">The vast field of Artificial Intelligence and Machine learning deals with aspects of Signal
+                                Processing, Audio and Speech Processing, Computer Vision, Natural Language Processing,
+                                Supervised and unsupervised learning, Deep Learning, Data Mining, Generative Models,
+                                Reinforcement Learning and Optimization algorithm...</p>
                             <button id="card-btn"><a href="#popup-article-card04" id="card-a">Read more</a></button>
                         </div>
                     </div>
@@ -177,23 +189,32 @@ const IndexPage = () => {
                         </a>  
                         <div class={styles.popup__content}>
                             <h1 class={ `${styles.popup_title} ${styles.r_title}`}>Artificial Intelligence and Machine Learning</h1>
-                            <p className="p-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam eaque optio vitae in explicabo recusandae sit id sapiente excepturi tempore, nemo, nulla odio deleniti rerum nisi perferendis aut molestias! Incidunt nesciunt iusto praesentium! In at maiores quibusdam enim quis, quam!</p>
-                            <p className="p-popup">Architecto magni dolores cumque tenetur nemo id aperiam, ratione temporibus at, consectetur totam, fuga et illo rerum earum dicta. Vitae ullam harum enim aliquid hic commodi voluptas cumque iste ex accusantium architecto doloremque reprehenderit, asperiores vero dolor, esse inventore dolorem.</p>
-                            <p className="p-popup">Excepturi eaque, reprehenderit dolores, cum molestias repellendus in expedita. Placeat totam, quos pariatur quidem explicabo id harum ab voluptatum. Necessitatibus, aliquam! Dolorum voluptatem ut laudantium excepturi cumque, hic iure impedit ullam accusantium error natus recusandae, quia fuga quo voluptates officiis?</p>    
-                            <p className="p-popup">Dignissimos debitis eos necessitatibus accusantium natus voluptates illo blanditiis corporis minus. Repudiandae libero quae, illo error expedita consectetur possimus voluptate eum esse quam molestiae tempore dignissimos ipsam similique ab quod. Ea earum adipisci rem voluptatem aliquid voluptatum deleniti necessitatibus provident.</p>
-                            <p className="p-popup">Dicta eum amet impedit maiores accusamus numquam saepe necessitatibus temporibus ut! Velit ducimus repellendus fuga repudiandae culpa voluptatibus delectus praesentium totam odit ratione, tenetur assumenda, labore esse et nostrum a, aut veritatis. Nihil, voluptas, impedit? Magnam dolorum, iure repellendus vitae.</p>
-                            <p className="p-popup">Temporibus voluptatum voluptatibus iste, nam atque dignissimos quam labore sequi adipisci tempore exercitationem quos, libero, reprehenderit facere quasi soluta, itaque at eum cum possimus! Facilis, tempora soluta at quis. Nemo expedita voluptate esse nam ex odit, sequi eveniet quibusdam, dolores?</p>
-                            <p className="p-popup">Praesentium laboriosam iste dolore cumque voluptatibus deleniti quia, delectus provident, illum aperiam, atque molestiae. Cum delectus, doloribus expedita eius veritatis assumenda deleniti veniam reprehenderit animi ut, eaque asperiores, dicta incidunt omnis repellendus dolorum enim inventore rerum voluptatem saepe error id.</p>
+                            <p className="p-popup">The vast field of Artificial Intelligence and Machine learning deals with aspects of Signal
+                            Processing, Audio and Speech Processing, Computer Vision, Natural Language Processing,
+                            Supervised and unsupervised learning, Deep Learning, Data Mining, Generative Models,
+                            Reinforcement Learning and Optimization algorithm.</p>
+                            <p className="p-popup">Reinforcement Learning and Optimization algorithm. Artificial intelligence(AI)is the simulation of
+                            human intelligence processes by machines, especially computer systems. These processes
+                            include learning (the acquisition of information and rules for using the information), reasoning
+                            (using rules to reach approximate or definite conclusions) and self-correction. Neuromorphic
+                            computing mimicking the human brain is one suchwave towards AI capabilities.</p>
+                            <p className="p-popup">This course will
+                            help participant gain knowledge about the design of artificially intelligent systems from the bottom
+                            to the top level. Hardware implementation of such systems with emerging devices will also be
+                            dealt.</p>    
+                            
                         </div>
                         </div>
                     </div>
                     <div className={styles.card}>
                         <div className={styles.card_front}>
-                        <h2 className="card-h2-front">Heading</h2>
+                        <h2 className="card-h2-front">Cyber Security Security</h2>
                         </div>
                         <div className={styles.card_back}>
                             <h2 className="card-h2">Cyber Security Security</h2>
-                            <p className="card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci aperiam ullam at in temporibus, facilis eos tenetur, molestiae perspiciatis ducimus illo recusandae. Enim ea, pariatur dignissimos similique fugiat sed deserunt!</p>
+                            <p className="card-p">This track emphasizes on emerging research areas in cyber security and privacy. It includes cyber
+                            security concepts, threats in cyberspace, security standardization, security and privacy
+                            regulations and laws, cyber hacking, digitalforensics...</p>
                             <button id="card-btn"><a href="#popup-article-card04" id="card-a">Read more</a></button>
                         </div>
                     </div>
@@ -205,13 +226,14 @@ const IndexPage = () => {
                         </a>  
                         <div class={styles.popup__content}>
                             <h1 class={ `${styles.popup_title} ${styles.r_title}`}>Cyber Security Security</h1>
-                            <p className="p-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam eaque optio vitae in explicabo recusandae sit id sapiente excepturi tempore, nemo, nulla odio deleniti rerum nisi perferendis aut molestias! Incidunt nesciunt iusto praesentium! In at maiores quibusdam enim quis, quam!</p>
-                            <p className="p-popup">Architecto magni dolores cumque tenetur nemo id aperiam, ratione temporibus at, consectetur totam, fuga et illo rerum earum dicta. Vitae ullam harum enim aliquid hic commodi voluptas cumque iste ex accusantium architecto doloremque reprehenderit, asperiores vero dolor, esse inventore dolorem.</p>
-                            <p className="p-popup">Excepturi eaque, reprehenderit dolores, cum molestias repellendus in expedita. Placeat totam, quos pariatur quidem explicabo id harum ab voluptatum. Necessitatibus, aliquam! Dolorum voluptatem ut laudantium excepturi cumque, hic iure impedit ullam accusantium error natus recusandae, quia fuga quo voluptates officiis?</p>    
-                            <p className="p-popup">Dignissimos debitis eos necessitatibus accusantium natus voluptates illo blanditiis corporis minus. Repudiandae libero quae, illo error expedita consectetur possimus voluptate eum esse quam molestiae tempore dignissimos ipsam similique ab quod. Ea earum adipisci rem voluptatem aliquid voluptatum deleniti necessitatibus provident.</p>
-                            <p className="p-popup">Dicta eum amet impedit maiores accusamus numquam saepe necessitatibus temporibus ut! Velit ducimus repellendus fuga repudiandae culpa voluptatibus delectus praesentium totam odit ratione, tenetur assumenda, labore esse et nostrum a, aut veritatis. Nihil, voluptas, impedit? Magnam dolorum, iure repellendus vitae.</p>
-                            <p className="p-popup">Temporibus voluptatum voluptatibus iste, nam atque dignissimos quam labore sequi adipisci tempore exercitationem quos, libero, reprehenderit facere quasi soluta, itaque at eum cum possimus! Facilis, tempora soluta at quis. Nemo expedita voluptate esse nam ex odit, sequi eveniet quibusdam, dolores?</p>
-                            <p className="p-popup">Praesentium laboriosam iste dolore cumque voluptatibus deleniti quia, delectus provident, illum aperiam, atque molestiae. Cum delectus, doloribus expedita eius veritatis assumenda deleniti veniam reprehenderit animi ut, eaque asperiores, dicta incidunt omnis repellendus dolorum enim inventore rerum voluptatem saepe error id.</p>
+                            <p className="p-popup">This track emphasizes on emerging research areas in cyber security and privacy. It includes cyber
+                                security concepts, threats in cyberspace, security standardization, security and privacy
+                                regulations and laws, cyber hacking, digitalforensics, Trust management, security andprivacy in
+                                blockchain technologies, intrusion detection and prevention, cyberspace protection and
+                                anti-malware, network traffic analysis, identity and access management in cyber systems, cyber
+                                threat intelligence, cryptography trends, steganography, security of cyber-physical systems and
+                                IoT, secure cloud and edge computing architectures, security of web-based applications, and
+                                cyber harmony and cyber welfare.</p>
                         </div>
                         </div>
                     </div>

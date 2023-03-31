@@ -89,7 +89,11 @@
     &:visited {
       text-transform: uppercase;
       color: $color-grey-light-1;
-      text-decoration: underline;
+      text-decoration: none;
+      transition: 0.2s;
+    }
+    &:hover{
+      color: $color-primary-light;
     }
   }
 }

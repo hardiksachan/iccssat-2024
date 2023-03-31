@@ -1,4 +1,5 @@
 
+
 .section_tracks {
     grid-column: center-start / center-end;
     margin-top: 6rem;
@@ -160,6 +161,7 @@
   position: relative;
   transition: 1s;
   transform-style: preserve-3d;
+  border-radius: 2rem;
 
   &_front , 
   &_back{
@@ -182,7 +184,7 @@
     flex-wrap: wrap;
   }
   &_front{
-    background: url(https://source.unsplash.com/random/);
+    background: url(https://unsplash.com/photos/uLyaRHsmcq0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink);
     background-size: cover;
   }
   &_front::before{
@@ -193,6 +195,7 @@
     bottom: 0px;
     left: 0px;
     background-color: rgba(0,0,0,0.45);
+    border-radius: 2rem;
   }
 }
 .card:hover{
