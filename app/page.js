@@ -9,6 +9,7 @@ import { BsFillCalendarEventFill } from "react-icons/bs";
 import { FaLocationArrow } from "react-icons/fa";
 import HomeGallery from "@/components/HomeGallery";
 import CommitteeMember from "@/components/CommitteeMember";
+import dataMining from "@/assets/img/Data-mining.jpg";
 
 
 const IndexPage = () => {
@@ -77,6 +78,154 @@ const IndexPage = () => {
                     </ul>
                 </div>
                 
+                <div className={styles.cardContainer} id="cards">
+                    <div className={styles.card}>
+                        <div className={styles.card_front}>
+                        <h2 className="card-h2-front">Heading</h2>
+                        </div>
+                        <div className={styles.card_back}>
+                            <h2 className="card-h2">Data Analytics and Mining</h2>
+                            <p className="card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci aperiam ullam at in temporibus, facilis eos tenetur, molestiae perspiciatis ducimus illo recusandae. Enim ea, pariatur dignissimos similique fugiat sed deserunt!</p>
+                            <button id="card-btn"><a href="#popup-article-card01" id="card-a">Read more</a></button>
+                        </div>
+                    </div>
+
+                <div id="popup-article-card01" class={styles.popup}>
+                    <div class={styles.popup_container}>
+                    <a href="#cards" class={styles.popup_close}>
+                        <span class={styles.screen_reader}>close</span>
+                    </a>  
+                    <div class={styles.popup__content}>
+                        <h1 class={ `${styles.popup_title} ${styles.r_title}`}>Data Analytics and Mining</h1>
+                        <p className="p-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam eaque optio vitae in explicabo recusandae sit id sapiente excepturi tempore, nemo, nulla odio deleniti rerum nisi perferendis aut molestias! Incidunt nesciunt iusto praesentium! In at maiores quibusdam enim quis, quam!</p>
+                        <p className="p-popup">Architecto magni dolores cumque tenetur nemo id aperiam, ratione temporibus at, consectetur totam, fuga et illo rerum earum dicta. Vitae ullam harum enim aliquid hic commodi voluptas cumque iste ex accusantium architecto doloremque reprehenderit, asperiores vero dolor, esse inventore dolorem.</p>
+                        <p className="p-popup">Excepturi eaque, reprehenderit dolores, cum molestias repellendus in expedita. Placeat totam, quos pariatur quidem explicabo id harum ab voluptatum. Necessitatibus, aliquam! Dolorum voluptatem ut laudantium excepturi cumque, hic iure impedit ullam accusantium error natus recusandae, quia fuga quo voluptates officiis?</p>    
+                        <p className="p-popup">Dignissimos debitis eos necessitatibus accusantium natus voluptates illo blanditiis corporis minus. Repudiandae libero quae, illo error expedita consectetur possimus voluptate eum esse quam molestiae tempore dignissimos ipsam similique ab quod. Ea earum adipisci rem voluptatem aliquid voluptatum deleniti necessitatibus provident.</p>
+                        <p className="p-popup">Dicta eum amet impedit maiores accusamus numquam saepe necessitatibus temporibus ut! Velit ducimus repellendus fuga repudiandae culpa voluptatibus delectus praesentium totam odit ratione, tenetur assumenda, labore esse et nostrum a, aut veritatis. Nihil, voluptas, impedit? Magnam dolorum, iure repellendus vitae.</p>
+                        <p className="p-popup">Temporibus voluptatum voluptatibus iste, nam atque dignissimos quam labore sequi adipisci tempore exercitationem quos, libero, reprehenderit facere quasi soluta, itaque at eum cum possimus! Facilis, tempora soluta at quis. Nemo expedita voluptate esse nam ex odit, sequi eveniet quibusdam, dolores?</p>
+                        <p className="p-popup">Praesentium laboriosam iste dolore cumque voluptatibus deleniti quia, delectus provident, illum aperiam, atque molestiae. Cum delectus, doloribus expedita eius veritatis assumenda deleniti veniam reprehenderit animi ut, eaque asperiores, dicta incidunt omnis repellendus dolorum enim inventore rerum voluptatem saepe error id.</p>
+                    </div>
+                    </div>
+                </div>
+
+                    <div className={styles.card}>
+                        <div className={styles.card_front}>
+                        <h2 className="card-h2-front">Heading</h2>
+                        </div>
+                        <div className={styles.card_back}>
+                            <h2 className="card-h2">Cryptography and Network Security</h2>
+                            <p className="card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci aperiam ullam at in temporibus, facilis eos tenetur, molestiae perspiciatis ducimus illo recusandae. Enim ea, pariatur dignissimos similique fugiat sed deserunt!</p>
+                            <button id="card-btn"><a href="#popup-article-card02" id="card-a">Read more</a></button>
+                        </div>
+                    </div>
+
+                    <div id="popup-article-card02" class={styles.popup}>
+                        <div class={styles.popup_container}>
+                        <a href="#cards" class={styles.popup_close}>
+                            <span class={styles.screen_reader}>close</span>
+                        </a>  
+                        <div class={styles.popup__content}>
+                            <h1 class={ `${styles.popup_title} ${styles.r_title}`}>Cryptography and Network Security</h1>
+                            <p className="p-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam eaque optio vitae in explicabo recusandae sit id sapiente excepturi tempore, nemo, nulla odio deleniti rerum nisi perferendis aut molestias! Incidunt nesciunt iusto praesentium! In at maiores quibusdam enim quis, quam!</p>
+                            <p className="p-popup">Architecto magni dolores cumque tenetur nemo id aperiam, ratione temporibus at, consectetur totam, fuga et illo rerum earum dicta. Vitae ullam harum enim aliquid hic commodi voluptas cumque iste ex accusantium architecto doloremque reprehenderit, asperiores vero dolor, esse inventore dolorem.</p>
+                            <p className="p-popup">Excepturi eaque, reprehenderit dolores, cum molestias repellendus in expedita. Placeat totam, quos pariatur quidem explicabo id harum ab voluptatum. Necessitatibus, aliquam! Dolorum voluptatem ut laudantium excepturi cumque, hic iure impedit ullam accusantium error natus recusandae, quia fuga quo voluptates officiis?</p>    
+                            <p className="p-popup">Dignissimos debitis eos necessitatibus accusantium natus voluptates illo blanditiis corporis minus. Repudiandae libero quae, illo error expedita consectetur possimus voluptate eum esse quam molestiae tempore dignissimos ipsam similique ab quod. Ea earum adipisci rem voluptatem aliquid voluptatum deleniti necessitatibus provident.</p>
+                            <p className="p-popup">Dicta eum amet impedit maiores accusamus numquam saepe necessitatibus temporibus ut! Velit ducimus repellendus fuga repudiandae culpa voluptatibus delectus praesentium totam odit ratione, tenetur assumenda, labore esse et nostrum a, aut veritatis. Nihil, voluptas, impedit? Magnam dolorum, iure repellendus vitae.</p>
+                            <p className="p-popup">Temporibus voluptatum voluptatibus iste, nam atque dignissimos quam labore sequi adipisci tempore exercitationem quos, libero, reprehenderit facere quasi soluta, itaque at eum cum possimus! Facilis, tempora soluta at quis. Nemo expedita voluptate esse nam ex odit, sequi eveniet quibusdam, dolores?</p>
+                            <p className="p-popup">Praesentium laboriosam iste dolore cumque voluptatibus deleniti quia, delectus provident, illum aperiam, atque molestiae. Cum delectus, doloribus expedita eius veritatis assumenda deleniti veniam reprehenderit animi ut, eaque asperiores, dicta incidunt omnis repellendus dolorum enim inventore rerum voluptatem saepe error id.</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div className={styles.card}>
+                        <div className={styles.card_front}>
+                        <h2 className="card-h2-front">Heading</h2>
+                        </div>
+                        <div className={styles.card_back}>
+                            <h2 className="card-h2">Cloud Computing ans IoT</h2>
+                            <p className="card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci aperiam ullam at in temporibus, facilis eos tenetur, molestiae perspiciatis ducimus illo recusandae. Enim ea, pariatur dignissimos similique fugiat sed deserunt!</p>
+                            <button id="card-btn"><a href="#popup-article-card03" id="card-a">Read more</a></button>
+                        </div>
+                    </div>
+
+                    <div id="popup-article-card03" class={styles.popup}>
+                        <div class={styles.popup_container}>
+                        <a href="#cards" class={styles.popup_close}>
+                            <span class={styles.screen_reader}>close</span>
+                        </a>  
+                        <div class={styles.popup__content}>
+                            <h1 class={ `${styles.popup_title} ${styles.r_title}`}>Cloud Computing ans IoT</h1>
+                            <p className="p-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam eaque optio vitae in explicabo recusandae sit id sapiente excepturi tempore, nemo, nulla odio deleniti rerum nisi perferendis aut molestias! Incidunt nesciunt iusto praesentium! In at maiores quibusdam enim quis, quam!</p>
+                            <p className="p-popup">Architecto magni dolores cumque tenetur nemo id aperiam, ratione temporibus at, consectetur totam, fuga et illo rerum earum dicta. Vitae ullam harum enim aliquid hic commodi voluptas cumque iste ex accusantium architecto doloremque reprehenderit, asperiores vero dolor, esse inventore dolorem.</p>
+                            <p className="p-popup">Excepturi eaque, reprehenderit dolores, cum molestias repellendus in expedita. Placeat totam, quos pariatur quidem explicabo id harum ab voluptatum. Necessitatibus, aliquam! Dolorum voluptatem ut laudantium excepturi cumque, hic iure impedit ullam accusantium error natus recusandae, quia fuga quo voluptates officiis?</p>    
+                            <p className="p-popup">Dignissimos debitis eos necessitatibus accusantium natus voluptates illo blanditiis corporis minus. Repudiandae libero quae, illo error expedita consectetur possimus voluptate eum esse quam molestiae tempore dignissimos ipsam similique ab quod. Ea earum adipisci rem voluptatem aliquid voluptatum deleniti necessitatibus provident.</p>
+                            <p className="p-popup">Dicta eum amet impedit maiores accusamus numquam saepe necessitatibus temporibus ut! Velit ducimus repellendus fuga repudiandae culpa voluptatibus delectus praesentium totam odit ratione, tenetur assumenda, labore esse et nostrum a, aut veritatis. Nihil, voluptas, impedit? Magnam dolorum, iure repellendus vitae.</p>
+                            <p className="p-popup">Temporibus voluptatum voluptatibus iste, nam atque dignissimos quam labore sequi adipisci tempore exercitationem quos, libero, reprehenderit facere quasi soluta, itaque at eum cum possimus! Facilis, tempora soluta at quis. Nemo expedita voluptate esse nam ex odit, sequi eveniet quibusdam, dolores?</p>
+                            <p className="p-popup">Praesentium laboriosam iste dolore cumque voluptatibus deleniti quia, delectus provident, illum aperiam, atque molestiae. Cum delectus, doloribus expedita eius veritatis assumenda deleniti veniam reprehenderit animi ut, eaque asperiores, dicta incidunt omnis repellendus dolorum enim inventore rerum voluptatem saepe error id.</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.cardContainer}>
+                    <div className={styles.card}>
+                        <div className={styles.card_front}>
+                        <h2 className="card-h2-front">Heading</h2>
+                        </div>
+                        <div className={styles.card_back}>
+                            <h2 className="card-h2">Artificial Intelligence and Machine Learning</h2>
+                            <p className="card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci aperiam ullam at in temporibus, facilis eos tenetur, molestiae perspiciatis ducimus illo recusandae. Enim ea, pariatur dignissimos similique fugiat sed deserunt!</p>
+                            <button id="card-btn"><a href="#popup-article-card04" id="card-a">Read more</a></button>
+                        </div>
+                    </div>
+
+                    <div id="popup-article-card04" class={styles.popup}>
+                        <div class={styles.popup_container}>
+                        <a href="#cards" class={styles.popup_close}>
+                            <span class={styles.screen_reader}>close</span>
+                        </a>  
+                        <div class={styles.popup__content}>
+                            <h1 class={ `${styles.popup_title} ${styles.r_title}`}>Artificial Intelligence and Machine Learning</h1>
+                            <p className="p-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam eaque optio vitae in explicabo recusandae sit id sapiente excepturi tempore, nemo, nulla odio deleniti rerum nisi perferendis aut molestias! Incidunt nesciunt iusto praesentium! In at maiores quibusdam enim quis, quam!</p>
+                            <p className="p-popup">Architecto magni dolores cumque tenetur nemo id aperiam, ratione temporibus at, consectetur totam, fuga et illo rerum earum dicta. Vitae ullam harum enim aliquid hic commodi voluptas cumque iste ex accusantium architecto doloremque reprehenderit, asperiores vero dolor, esse inventore dolorem.</p>
+                            <p className="p-popup">Excepturi eaque, reprehenderit dolores, cum molestias repellendus in expedita. Placeat totam, quos pariatur quidem explicabo id harum ab voluptatum. Necessitatibus, aliquam! Dolorum voluptatem ut laudantium excepturi cumque, hic iure impedit ullam accusantium error natus recusandae, quia fuga quo voluptates officiis?</p>    
+                            <p className="p-popup">Dignissimos debitis eos necessitatibus accusantium natus voluptates illo blanditiis corporis minus. Repudiandae libero quae, illo error expedita consectetur possimus voluptate eum esse quam molestiae tempore dignissimos ipsam similique ab quod. Ea earum adipisci rem voluptatem aliquid voluptatum deleniti necessitatibus provident.</p>
+                            <p className="p-popup">Dicta eum amet impedit maiores accusamus numquam saepe necessitatibus temporibus ut! Velit ducimus repellendus fuga repudiandae culpa voluptatibus delectus praesentium totam odit ratione, tenetur assumenda, labore esse et nostrum a, aut veritatis. Nihil, voluptas, impedit? Magnam dolorum, iure repellendus vitae.</p>
+                            <p className="p-popup">Temporibus voluptatum voluptatibus iste, nam atque dignissimos quam labore sequi adipisci tempore exercitationem quos, libero, reprehenderit facere quasi soluta, itaque at eum cum possimus! Facilis, tempora soluta at quis. Nemo expedita voluptate esse nam ex odit, sequi eveniet quibusdam, dolores?</p>
+                            <p className="p-popup">Praesentium laboriosam iste dolore cumque voluptatibus deleniti quia, delectus provident, illum aperiam, atque molestiae. Cum delectus, doloribus expedita eius veritatis assumenda deleniti veniam reprehenderit animi ut, eaque asperiores, dicta incidunt omnis repellendus dolorum enim inventore rerum voluptatem saepe error id.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div className={styles.card}>
+                        <div className={styles.card_front}>
+                        <h2 className="card-h2-front">Heading</h2>
+                        </div>
+                        <div className={styles.card_back}>
+                            <h2 className="card-h2">Cyber Security Security</h2>
+                            <p className="card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci aperiam ullam at in temporibus, facilis eos tenetur, molestiae perspiciatis ducimus illo recusandae. Enim ea, pariatur dignissimos similique fugiat sed deserunt!</p>
+                            <button id="card-btn"><a href="#popup-article-card04" id="card-a">Read more</a></button>
+                        </div>
+                    </div>
+
+                    <div id="popup-article-card05" class={styles.popup}>
+                        <div class={styles.popup_container}>
+                        <a href="#cards" class={styles.popup_close}>
+                            <span class={styles.screen_reader}>close</span>
+                        </a>  
+                        <div class={styles.popup__content}>
+                            <h1 class={ `${styles.popup_title} ${styles.r_title}`}>Cyber Security Security</h1>
+                            <p className="p-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam eaque optio vitae in explicabo recusandae sit id sapiente excepturi tempore, nemo, nulla odio deleniti rerum nisi perferendis aut molestias! Incidunt nesciunt iusto praesentium! In at maiores quibusdam enim quis, quam!</p>
+                            <p className="p-popup">Architecto magni dolores cumque tenetur nemo id aperiam, ratione temporibus at, consectetur totam, fuga et illo rerum earum dicta. Vitae ullam harum enim aliquid hic commodi voluptas cumque iste ex accusantium architecto doloremque reprehenderit, asperiores vero dolor, esse inventore dolorem.</p>
+                            <p className="p-popup">Excepturi eaque, reprehenderit dolores, cum molestias repellendus in expedita. Placeat totam, quos pariatur quidem explicabo id harum ab voluptatum. Necessitatibus, aliquam! Dolorum voluptatem ut laudantium excepturi cumque, hic iure impedit ullam accusantium error natus recusandae, quia fuga quo voluptates officiis?</p>    
+                            <p className="p-popup">Dignissimos debitis eos necessitatibus accusantium natus voluptates illo blanditiis corporis minus. Repudiandae libero quae, illo error expedita consectetur possimus voluptate eum esse quam molestiae tempore dignissimos ipsam similique ab quod. Ea earum adipisci rem voluptatem aliquid voluptatum deleniti necessitatibus provident.</p>
+                            <p className="p-popup">Dicta eum amet impedit maiores accusamus numquam saepe necessitatibus temporibus ut! Velit ducimus repellendus fuga repudiandae culpa voluptatibus delectus praesentium totam odit ratione, tenetur assumenda, labore esse et nostrum a, aut veritatis. Nihil, voluptas, impedit? Magnam dolorum, iure repellendus vitae.</p>
+                            <p className="p-popup">Temporibus voluptatum voluptatibus iste, nam atque dignissimos quam labore sequi adipisci tempore exercitationem quos, libero, reprehenderit facere quasi soluta, itaque at eum cum possimus! Facilis, tempora soluta at quis. Nemo expedita voluptate esse nam ex odit, sequi eveniet quibusdam, dolores?</p>
+                            <p className="p-popup">Praesentium laboriosam iste dolore cumque voluptatibus deleniti quia, delectus provident, illum aperiam, atque molestiae. Cum delectus, doloribus expedita eius veritatis assumenda deleniti veniam reprehenderit animi ut, eaque asperiores, dicta incidunt omnis repellendus dolorum enim inventore rerum voluptatem saepe error id.</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
             {/* TODO: <div className={styles.section_rules}>RULES</div>*/}
             <div className={styles.OrganisingCommittee}>
