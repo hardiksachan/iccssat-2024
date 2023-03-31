@@ -70,7 +70,61 @@ const IndexPage = () => {
                     </ul>
                 </div>
                 
-                
+                <div className={styles.cardContainer}>
+                    <div className={styles.card}>
+                        <div className={styles.card_front}>
+                        <h2 className="card-h2-front">Heading</h2>
+                        </div>
+                        <div className={styles.card_back}>
+                            <h2 className="card-h2">Heading</h2>
+                            <p className="card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci aperiam ullam at in temporibus, facilis eos tenetur, molestiae perspiciatis ducimus illo recusandae. Enim ea, pariatur dignissimos similique fugiat sed deserunt!</p>
+                            <button id="card-btn">Read More</button>
+                        </div>
+                    </div>
+                    <div className={styles.card}>
+                        <div className={styles.card_front}>
+                        <h2 className="card-h2-front">Heading</h2>
+                        </div>
+                        <div className={styles.card_back}>
+                            <h2 className="card-h2">Heading</h2>
+                            <p className="card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci aperiam ullam at in temporibus, facilis eos tenetur, molestiae perspiciatis ducimus illo recusandae. Enim ea, pariatur dignissimos similique fugiat sed deserunt!</p>
+                            <button id="card-btn">Read More</button>
+                        </div>
+                    </div>
+                    <div className={styles.card}>
+                        <div className={styles.card_front}>
+                        <h2 className="card-h2-front">Heading</h2>
+                        </div>
+                        <div className={styles.card_back}>
+                            <h2 className="card-h2">Heading</h2>
+                            <p className="card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci aperiam ullam at in temporibus, facilis eos tenetur, molestiae perspiciatis ducimus illo recusandae. Enim ea, pariatur dignissimos similique fugiat sed deserunt!</p>
+                            <button id="card-btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.cardContainer}>
+                    <div className={styles.card}>
+                        <div className={styles.card_front}>
+                        <h2 className="card-h2-front">Heading</h2>
+                        </div>
+                        <div className={styles.card_back}>
+                            <h2 className="card-h2">Heading</h2>
+                            <p className="card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci aperiam ullam at in temporibus, facilis eos tenetur, molestiae perspiciatis ducimus illo recusandae. Enim ea, pariatur dignissimos similique fugiat sed deserunt!</p>
+                            <button id="card-btn">Read More</button>
+                        </div>
+                    </div>
+                    <div className={styles.card}>
+                        <div className={styles.card_front}>
+                        <h2 className="card-h2-front">Heading</h2>
+                        </div>
+                        <div className={styles.card_back}>
+                            <h2 className="card-h2">Heading</h2>
+                            <p className="card-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci aperiam ullam at in temporibus, facilis eos tenetur, molestiae perspiciatis ducimus illo recusandae. Enim ea, pariatur dignissimos similique fugiat sed deserunt!</p>
+                            <button id="card-btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
                 
             </div>
             <div className={styles.section_rules}>RULES</div>
