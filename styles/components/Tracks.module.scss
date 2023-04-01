@@ -1,0 +1,85 @@
+@import "styles/abstract/variables";
+
+.Tracks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  grid-gap: 4rem;
+  margin-bottom: 6rem;
+}
+
+.Track {
+  background-color: rgba($color-white, .3);
+  box-shadow: 0 1rem 6rem rgba($color-black, .05);
+  border-radius: 1rem;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+
+  &_img {
+    width: 100%;
+    height: 20rem;
+    margin-bottom: 2rem;
+    object-fit: cover;
+  }
+
+  &_name {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: $color-primary-light;
+    margin: 0 1rem;
+  }
+
+  &_description {
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 1.2;
+    font-weight: 200;
+    margin: 1rem;
+  }
+
+  &_learnMore {
+    margin: 1rem;
+    margin-top: auto;
+    align-self: end;
+    border: none;
+    background-color: transparent;
+    color: $color-primary-light;
+    font-size: 1.4rem;
+    border-bottom: 1px solid currentColor;
+    padding: .5rem;
+    transition: all .3s;
+    border-radius: 2px;
+
+    &:hover {
+      background-color: $color-primary-light;
+      color: $color-white;
+    }
+  }
+}
+
+.Popup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba($color-black, .8);
+  z-index: 5000;
+
+  &_content {
+    width: 75%;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(.5);
+
+    background-color: $color-white;
+    box-shadow: 0 2rem 4rem rgba($color-black, .2);
+    border-radius: 3px;
+    display: table;
+    overflow: hidden;
+  }
+}
