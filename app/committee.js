@@ -13,23 +13,6 @@ const committee = [
         ]
     },
     {
-        title: "Steering Committee",
-        members: [
-            {
-                name: "Prof. Manoj Kumar",
-                designation: "Professor, Department of ECE",
-                affiliation: "National Institute of Technology, Delhi",
-                img: img1,
-            },
-            {
-                name: "Dr. Harish Kumar",
-                designation: "Dean, Academics",
-                affiliation: "National Institute of Technology, Delhi",
-                img: img1,
-            }
-        ]
-    },
-    {
         title: "Executive General Chair",
         members: [
             {
@@ -60,6 +43,23 @@ const committee = [
                 affiliation: "National Institute of Technology, Delhi",
                 img: img1,
             },
+        ]
+    },
+    {
+        title: "Steering Committee",
+        members: [
+            {
+                name: "Prof. Manoj Kumar",
+                designation: "Professor, Department of ECE",
+                affiliation: "National Institute of Technology, Delhi",
+                img: img1,
+            },
+            {
+                name: "Dr. Harish Kumar",
+                designation: "Dean, Academics",
+                affiliation: "National Institute of Technology, Delhi",
+                img: img1,
+            }
         ]
     },
     {
