@@ -1,14 +1,7 @@
 import styles from "@/styles/pages/committee.module.scss";
 const Committee = () => {
   return (
-    <div className={styles.CommitteeList}>
-      <div className={styles.heading}>Organizing Entity</div>
-      <div className={styles.List}>National Institute of Technology, Delhi</div>
-      <div className={styles.heading}>Chief Patron</div>
-      <div className={styles.List}>
-        Prof. (Dr) Ajay K. Sharma Director, National Institute of Technology,
-        Delhi
-      </div>
+    <div className={`${styles.CommitteeList} mb-lg`}>
       <div className={styles.heading}>Advisory Committee</div>
       <div className={`${styles.heading} ${styles.heading___small}`}>
         International Advisory Committee
@@ -140,13 +133,6 @@ const Committee = () => {
       </div>
       <div className={styles.List}>
         Dr. Badri N. Subudhi Assistant Professor, IIT jammu
-      </div>
-      <div className={styles.heading}>Steering Committee</div>
-      <div className={styles.List}>
-        Prof. Manoj Kumar Professor, Department of ECE, NIT Delhi
-      </div>
-      <div className={styles.List}>
-        Dr. Harish Kumar Dean, Academics, NIT Delhi
       </div>
       <div className={styles.heading}>Technical Program Committee</div>
       <div className={`${styles.heading} ${styles.heading___small}`}>
