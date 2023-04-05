@@ -1,0 +1,73 @@
+.SubmissionPage {
+  grid-column: center-start / center-end;
+}
+.SubmissionPage_heading{
+	padding: 1rem;
+	font-size: 1.8rem;
+}
+.SubmissionPage_notes{
+	font-size: 1.5rem;
+}
+.heading{
+	font-size: 2rem;
+	font-weight: bold;
+	margin: 2rem;
+}
+.Packages {
+  &_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+	margin-bottom: 2rem;
+  }
+  &_btn{
+	display: flex;
+	justify-content: center;
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	font-weight: 300;
+	align-items: center;
+	gap: 2rem;
+  }
+
+  &_toggle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2rem;
+	cursor: pointer;
+	padding: 0 2rem;
+  }
+}
+
+.PackageCard {
+  margin: 1rem;
+  width: 30rem;
+  padding-bottom: 1.5em;
+  height: 100%;
+  background-color: #a72bef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  color: #f4f4f4;
+
+  &_title {
+	font-size: 2.2em;
+  }
+
+  &_price {
+	font-size: 20px;
+  list-style: none;
+  border-bottom: 1px solid #f4f4f4;
+  padding-inline-start: 0;
+  border-width: 1px;
+  padding: 10px
+  }
+
+  &_label {
+	margin-top: 40px;
+	font-size: 2rem;
+  }
+}
