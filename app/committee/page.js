@@ -3,10 +3,12 @@ const Committee = () => {
   return (
     <div className={`${styles.CommitteeList} mb-lg`}>
       <div className={styles.heading}>Advisory Committee</div>
-      <div className={`${styles.heading} ${styles.heading___small}`}>
+      <div className={styles.subcommittee}>   
+           <div className={`${styles.heading} ${styles.heading___small}`}>
+        
         International Advisory Committee
       </div>
-      <div className={styles.List}>
+      <div className={styles.List}> 
         Prof. Mukesh Singhal Chancellor's Professor, University of California at
         Merced
       </div>
@@ -68,6 +70,9 @@ const Committee = () => {
         Prof. (Dr.) Habil. Levente Adalbert Kovács, Óbuda University, Budapest,
         Hungary
       </div>
+      </div>
+      <div className={styles.subcommittee}>
+
       <div className={`${styles.heading} ${styles.heading___small}`}>
         National Advisory Committee
       </div>
@@ -134,6 +139,8 @@ const Committee = () => {
       <div className={styles.List}>
         Dr. Badri N. Subudhi Assistant Professor, IIT jammu
       </div>
+      </div>
+      <div  className={styles.subcommittee} >
       <div className={styles.heading}>Technical Program Committee</div>
       <div className={`${styles.heading} ${styles.heading___small}`}>
         Chairs
@@ -145,6 +152,8 @@ const Committee = () => {
       <div className={styles.List}>
         Prof. Manoj Singh Gaur Director, IIT Jammu
       </div>
+      </div>
+      <div  className={styles.subcommittee}>
       <div className={`${styles.heading} ${styles.heading___small}`}>
         Committee Members
       </div>
@@ -211,6 +220,8 @@ const Committee = () => {
       <div className={styles.List}>
         Dr Nonita Sharma Associate Professor, IGDTUW New Delhi
       </div>
+      </div>
+      <div className={styles.subcommittee}>
       <div className={styles.heading}>Finance Committee</div>
       <div className={`${styles.heading} ${styles.heading___small}`}>
         Coordinators
@@ -227,6 +238,8 @@ const Committee = () => {
       <div className={styles.List}>
         Dr. Shailendra Tripathi Assistant Professor, Dept of CSE, NIT Delhi
       </div>
+      </div>
+    <div className={styles.subcommittee}>
       <div className={styles.heading}>Organizing Committee</div>
       <div className={styles.List}>
         Prof. (Dr.) Geeta Sikka Professor & Head, Dept of CSE, NIT Delhi
@@ -252,6 +265,8 @@ const Committee = () => {
       <div className={styles.List}>
         Dr. Rohini Mahajan Assistant Professor, Dept of CSE, NIT Delhi
       </div>
+      </div>
+      <div className={styles.subcommittee} >
       <div className={styles.heading}>Publication Committee</div>
       <div className={`${styles.heading} ${styles.heading___small}`}>
         Coordinators
@@ -271,6 +286,9 @@ const Committee = () => {
       <div className={styles.List}>
         Dr. Chandra Prakash Assistant Professor, Dept of CSE, NIT Delhi
       </div>
+      </div>
+      
+      <div className={styles.subcommittee}>
       <div className={styles.heading}>Publicity Committee</div>
       <div className={`${styles.heading} ${styles.heading___small}`}>
         Coordinators
@@ -287,7 +305,8 @@ const Committee = () => {
       <div className={styles.List}>
         Dr. Prabhakar Agarwal Assistant Professor, Dept of CSE, NIT Delhi
       </div>
-      <div className={styles.heading}>
+      </div>
+      <div className={styles.subcommittee}>      <div className={styles.heading}>
         Hospitality and Accommodation Committee
       </div>
       <div className={`${styles.heading} ${styles.heading___small}`}>
@@ -302,6 +321,8 @@ const Committee = () => {
       <div className={styles.List}>
         Dr. Jaspinder Kour Assistant Professor, Dept of CSE, NIT Delhi
       </div>
+      </div>
+      <div className={styles.subcommittee}>
       <div className={styles.heading}>Transportation Committee</div>
       <div className={`${styles.heading} ${styles.heading___small}`}>
         Coordinators
@@ -314,8 +335,12 @@ const Committee = () => {
       </div>
       <div className={styles.List}>
         Dr. Shailendra Tripathi Assistant Professor, Dept of CSE, NIT Delhi
+      
+        </div>
       </div>
-    </div>
+      </div>
+
+    
   );
 };
 export default Committee;
