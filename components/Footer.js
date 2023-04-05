@@ -30,7 +30,6 @@ const Footer = () => {
                         <li className={`${styles.ContactUs_item} ${styles.ContactUs_item___1}`}>+91 941 924 0698</li>
                         <li className={`${styles.ContactUs_item} ${styles.ContactUs_item___2}`}>+91 800 338 9258</li>
                         <li className={`${styles.ContactUs_item} ${styles.ContactUs_item___3}`}>+91 999 337 4581</li>
-                        <li className={`${styles.ContactUs_item} ${styles.ContactUs_item___3}`}>+91 988 858 2299</li>
                     </ul>
                     <ul className={`${styles.ContactUs_list} ${styles.ContactUs_list___email}`}>
                         <li className={`${styles.ContactUs_item} ${styles.ContactUs_item___1}`}><a href="mailto:cse@nitdelhi.ac.in">cse@nitdelhi.ac.in</a></li>

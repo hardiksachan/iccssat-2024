@@ -6,6 +6,7 @@ const Navbar = () => {
     const destinations = [
         {name: "Home", href: "/"},
         {name: "Committees", href: "/committee"},
+        {name: "Submission", href: "/submission"},
     ]
 
     return (
