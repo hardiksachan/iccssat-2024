@@ -71,7 +71,7 @@ const Committee = () => {
         Hungary
       </div>
       </div>
-      <div>
+      <div className={styles.subcommittee}>
 
       <div className={`${styles.heading} ${styles.heading___small}`}>
         National Advisory Committee
@@ -140,7 +140,7 @@ const Committee = () => {
         Dr. Badri N. Subudhi Assistant Professor, IIT jammu
       </div>
       </div>
-      <div>
+      <div  className={styles.subcommittee} >
       <div className={styles.heading}>Technical Program Committee</div>
       <div className={`${styles.heading} ${styles.heading___small}`}>
         Chairs
@@ -152,6 +152,8 @@ const Committee = () => {
       <div className={styles.List}>
         Prof. Manoj Singh Gaur Director, IIT Jammu
       </div>
+      </div>
+      <div  className={styles.subcommittee}>
       <div className={`${styles.heading} ${styles.heading___small}`}>
         Committee Members
       </div>
@@ -219,7 +221,7 @@ const Committee = () => {
         Dr Nonita Sharma Associate Professor, IGDTUW New Delhi
       </div>
       </div>
-      <div>
+      <div className={styles.subcommittee}>
       <div className={styles.heading}>Finance Committee</div>
       <div className={`${styles.heading} ${styles.heading___small}`}>
         Coordinators
@@ -236,6 +238,8 @@ const Committee = () => {
       <div className={styles.List}>
         Dr. Shailendra Tripathi Assistant Professor, Dept of CSE, NIT Delhi
       </div>
+      </div>
+    <div className={styles.subcommittee}>
       <div className={styles.heading}>Organizing Committee</div>
       <div className={styles.List}>
         Prof. (Dr.) Geeta Sikka Professor & Head, Dept of CSE, NIT Delhi
@@ -261,6 +265,8 @@ const Committee = () => {
       <div className={styles.List}>
         Dr. Rohini Mahajan Assistant Professor, Dept of CSE, NIT Delhi
       </div>
+      </div>
+      <div className={styles.subcommittee} >
       <div className={styles.heading}>Publication Committee</div>
       <div className={`${styles.heading} ${styles.heading___small}`}>
         Coordinators
@@ -281,7 +287,8 @@ const Committee = () => {
         Dr. Chandra Prakash Assistant Professor, Dept of CSE, NIT Delhi
       </div>
       </div>
-      <div>
+      
+      <div className={styles.subcommittee}>
       <div className={styles.heading}>Publicity Committee</div>
       <div className={`${styles.heading} ${styles.heading___small}`}>
         Coordinators
@@ -299,7 +306,7 @@ const Committee = () => {
         Dr. Prabhakar Agarwal Assistant Professor, Dept of CSE, NIT Delhi
       </div>
       </div>
-      <div>      <div className={styles.heading}>
+      <div className={styles.subcommittee}>      <div className={styles.heading}>
         Hospitality and Accommodation Committee
       </div>
       <div className={`${styles.heading} ${styles.heading___small}`}>
@@ -314,6 +321,8 @@ const Committee = () => {
       <div className={styles.List}>
         Dr. Jaspinder Kour Assistant Professor, Dept of CSE, NIT Delhi
       </div>
+      </div>
+      <div className={styles.subcommittee}>
       <div className={styles.heading}>Transportation Committee</div>
       <div className={`${styles.heading} ${styles.heading___small}`}>
         Coordinators
@@ -326,10 +335,12 @@ const Committee = () => {
       </div>
       <div className={styles.List}>
         Dr. Shailendra Tripathi Assistant Professor, Dept of CSE, NIT Delhi
+      
+        </div>
       </div>
       </div>
 
-    </div>
+    
   );
 };
 export default Committee;
