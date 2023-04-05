@@ -24,8 +24,14 @@
 .List
 {
     font-size:1.8rem;
-    color:$color-black;
+    color:$color-grey-dark-2;
     margin-top: 1rem;
     text-align:center;
     
+}
+.subcommittee:hover
+{
+    color:$color-black;
+    transform: translate();
+
 }
