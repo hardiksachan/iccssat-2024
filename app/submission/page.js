@@ -54,6 +54,47 @@ const Packages = () => {
 function SubmissionPage() {
   return (
     <div className={styles.SubmissionPage}>
+            <div className={styles.SubmissionPage_heading}>
+      <h1 className={styles.h1}>SUBMISSION RULES</h1>
+      <div className={styles.secion_rules_box}>
+        <ul className={styles.SubmissionPage_square}>
+          <li className={styles.SubmissionPage_notes}>
+            All the papers submitted to the conference should be written in
+            English with the maximum page length of six printed pages (10pt
+            font).
+          </li>
+          <li className={styles.SubmissionPage_notes}>
+            {" "}
+            Authors should submit their original unpublished work in PDF format
+            to ICSCCC 2023.
+          </li>
+          <li className={styles.SubmissionPage_notes}>
+            Simultaneous submissions (papers already submitted to other
+            conferences/journals) are not allowed.
+          </li>
+          <li className={styles.SubmissionPage_notes}>
+            {" "}
+            Submission should strictly follow recommended IEEE conference
+            template, which can be found here.
+          </li>
+          <li className={styles.SubmissionPage_notes}>
+            The decision regarding the acceptance of paper is at the discretion
+            of Technical Program Committee.
+          </li>
+          <li className={styles.SubmissionPage_notes}>
+            Plagiarism Check using Turnitin.
+          </li>
+          <li className={styles.SubmissionPage_notes}>
+            All the paper submission will be done on EasyChair conference
+            management software.
+          </li>
+          <li className={styles.SubmissionPage_notes}>
+            Reviewer assignment will be made using EasyChair.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div className={styles.heading}>Fees</div>
       <Packages />
     </div>
   );

@@ -1,7 +1,18 @@
 .SubmissionPage {
   grid-column: center-start / center-end;
 }
-
+.SubmissionPage_heading{
+	padding: 1rem;
+	font-size: 1.8rem;
+}
+.SubmissionPage_notes{
+	font-size: 1.5rem;
+}
+.heading{
+	font-size: 2rem;
+	font-weight: bold;
+	margin: 2rem;
+}
 .Packages {
   &_list {
     display: grid;
