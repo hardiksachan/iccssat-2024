@@ -2,6 +2,8 @@
 
 import styles from "@/styles/pages/Submission.module.scss";
 import React, { useState } from "react";
+import { FaToggleOff, FaToggleOn } from "react-icons/fa";
+
 
 const PackageCard = ({ ieee, nonIeee, title }) => {
   return (
@@ -20,13 +22,12 @@ const Packages = () => {
   return (
     <div className={styles.Packages}>
       <div
-        style={{ padding: "2rem" }}
-        onClick={() => {
-          setIndian((i) => !i);
-        }}
+        className={styles.Packages_btn}
       >
         <span>Indians</span>
-        <span>{JSON.stringify({ active: indian })}</span>
+        <span className={styles.Packages_toggle} onClick={() => {
+          setIndian((i) => !i);
+        }}>{indian ? <FaToggleOff /> : <FaToggleOn />}</span>
         <span>International</span>
       </div>
       <div className={styles.Packages_list}>
