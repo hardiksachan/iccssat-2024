@@ -1,0 +1,34 @@
+.SubmissionPage {
+  grid-column: center-start / center-end;
+}
+
+.Packages {
+  &_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.PackageCard {
+  margin: 1rem;
+  width: 20rem;
+  padding-bottom: 1.5em;
+  height: 100%;
+  background-color: #a72bef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  color: #f4f4f4;
+
+  &_title {
+  }
+
+  &_price {
+  }
+
+  &_label {
+  }
+}
