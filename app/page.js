@@ -356,7 +356,6 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
-      {/* TODO: <div className={styles.section_rules}>RULES</div>*/}
       <div className={styles.OrganisingCommittee}>
         <h2 className={`h2 ${styles.OrganisingCommittee_heading}`}>
           Organising Committee
