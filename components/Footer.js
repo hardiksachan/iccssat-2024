@@ -1,5 +1,5 @@
 import styles from "@/styles/components/Footer.module.scss"
-import {ImLocation, ImPhone} from "react-icons/im"
+import { ImLocation, ImPhone } from "react-icons/im"
 
 const Footer = () => {
     return (
@@ -27,13 +27,13 @@ const Footer = () => {
                     </div>
                     <h3 className={styles.ContactUs_heading}>ContactUs</h3>
                     <ul className={`${styles.ContactUs_list} ${styles.ContactUs_list___phone}`}>
-                        <li className={`${styles.ContactUs_item} ${styles.ContactUs_item___1}`}>+91 995 885 4858</li>
-                        <li className={`${styles.ContactUs_item} ${styles.ContactUs_item___2}`}>+91 995 885 4858</li>
-                        <li className={`${styles.ContactUs_item} ${styles.ContactUs_item___3}`}>+91 995 885 4858</li>
+                        <li className={`${styles.ContactUs_item} ${styles.ContactUs_item___1}`}>+91 941 924 0698</li>
+                        <li className={`${styles.ContactUs_item} ${styles.ContactUs_item___2}`}>+91 800 338 9258</li>
+                        <li className={`${styles.ContactUs_item} ${styles.ContactUs_item___3}`}>+91 999 337 4581</li>
                     </ul>
                     <ul className={`${styles.ContactUs_list} ${styles.ContactUs_list___email}`}>
-                        <li className={`${styles.ContactUs_item} ${styles.ContactUs_item___1}`}>abc@nitdelhi.ac.in</li>
-                        <li className={`${styles.ContactUs_item} ${styles.ContactUs_item___2}`}>abc@nitdelhi.ac.in</li>
+                        <li className={`${styles.ContactUs_item} ${styles.ContactUs_item___1}`}><a href="mailto:cse@nitdelhi.ac.in">cse@nitdelhi.ac.in</a></li>
+                        <li className={`${styles.ContactUs_item} ${styles.ContactUs_item___2}`}><a href="mailto:karanverma@nitdelhi.ac.in">karanverma@nitdelhi.ac.in</a></li>
                     </ul>
                 </div>
             </footer>

@@ -1,0 +1,11 @@
+.OrganisingCommittee {
+  grid-column: center-start / center-end;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+
+  &_heading {
+    justify-self: start;
+  }
+}
