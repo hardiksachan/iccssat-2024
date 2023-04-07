@@ -174,7 +174,7 @@
   }
 
   &_back{
-    background-color: $color-primary;
+    background-color: $color-primary-dark;
     padding: 2rem;
     transform: rotateY(180deg);
     display: flex;
@@ -184,7 +184,7 @@
     flex-wrap: wrap;
   }
   &_front{
-    background: url(https://unsplash.com/photos/uLyaRHsmcq0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink);
+    background-color: $color-primary;
     background-size: cover;
   }
   &_front::before{
