@@ -108,6 +108,12 @@ const IndexPage = () => {
                 <h1 class={`${styles.popup_title} ${styles.r_title}`}>
                   Data Analytics and Mining
                 </h1>
+                <p className="p-track">
+                  Prof. Vikram Goyal , Professor IIIT Delhi
+                </p>
+                <p className="p-track">
+                  Prof.MayankVasta and Prof.RichaSingh , IITjodhpur
+                </p>
                 <p className="p-popup">
                   All overtheworld, organizations areharnessingthetrue powerof
                   data andanalytics strategies to
@@ -161,6 +167,14 @@ const IndexPage = () => {
                 <h1 class={`${styles.popup_title} ${styles.r_title}`}>
                   Cryptography and Network Security
                 </h1>
+                <p className="p-track">
+                  Prof. Harsh K. Verma , Professor , Department Of Computer
+                  Science <br /> NIT Jalandhar
+                </p>
+                <p className="p-track">
+                  Prof.Manoj Kumar , Professor , ComputerScienceEngineering{" "}
+                  <br /> NIT Jalandhar
+                </p>
                 <p className="p-popup">
                   Computer network security consists of measures taken by some
                   organizations or businesses to monitor and avoid unauthorized
@@ -218,6 +232,10 @@ const IndexPage = () => {
                 <h1 class={`${styles.popup_title} ${styles.r_title}`}>
                   Cloud Computing and IoT
                 </h1>
+                <p className="p-track"></p>{" "}
+                <p className="p-track">
+                  Dr. Mashtaq Ahmed , Associate Professor <br /> MNIT Jaipur
+                </p>
                 <p className="p-popup">
                   The track has a vast expanse in the field Data Analytics,
                   Distributed & Parallel Computing, High Performance
@@ -281,6 +299,15 @@ const IndexPage = () => {
                 <h1 class={`${styles.popup_title} ${styles.r_title}`}>
                   Artificial Intelligence and Machine Learning
                 </h1>
+                <p className="p-track"></p>{" "}
+                <p className="p-track">
+                  Dr. Shailender Kumar , Associate Professor <br /> DTU , New
+                  Delhi
+                </p>
+                <p className="p-track"></p>{" "}
+                <p className="p-track">
+                  Dr.Yogesh Kumar Meena , Associate Professor <br /> MNIT Jaipur
+                </p>
                 <p className="p-popup">
                   The vast field of Artificial Intelligence and Machine learning
                   deals with aspects of Signal Processing, Audio and Speech
@@ -337,6 +364,14 @@ const IndexPage = () => {
                 <h1 class={`${styles.popup_title} ${styles.r_title}`}>
                   Cyber Security Security
                 </h1>
+                <p className="p-track"></p>{" "}
+                <p className="p-track">
+                  Dr. Deepak Singh Tomar , Associate Professor <br /> NIT Bhopal
+                </p>
+                <p className="p-track"></p>{" "}
+                <p className="p-track">
+                  Prof. Mayank Dave , Professor <br /> NIT Kurukshetra
+                </p>
                 <p className="p-popup">
                   This track emphasizes on emerging research areas in cyber
                   security and privacy. It includes cyber security concepts,

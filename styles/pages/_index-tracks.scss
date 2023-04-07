@@ -173,8 +173,8 @@
     backface-visibility: hidden;
   }
 
-  &_back {
-    background-color: $color-primary;
+  &_back{
+    background-color: $color-primary-dark;
     padding: 2rem;
     transform: rotateY(180deg);
     display: flex;
@@ -183,8 +183,8 @@
     flex-direction: column;
     flex-wrap: wrap;
   }
-  &_front {
-    background: url(https://unsplash.com/photos/uLyaRHsmcq0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink);
+  &_front{
+    background-color: $color-primary;
     background-size: cover;
   }
   &_front::before {
@@ -243,7 +243,7 @@
     content: "";
     box-sizing: border-box;
     width: 100%;
-    background-color: #fff;
+    background-color: $color-primary;
 
     position: fixed;
     left: 0;
@@ -254,7 +254,7 @@
     content: "";
     width: 0;
     height: 2px;
-    background-color: #f0f0f0;
+    background-color: $color-primary;
 
     position: absolute;
     top: 50%;
@@ -279,7 +279,7 @@
   &_title {
     --rTitleMarginBottom: 1.5rem;
     font-size: 5rem;
-    color: $color-primary;
+    color: white;
   }
 
   &_close {
