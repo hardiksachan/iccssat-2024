@@ -33,18 +33,18 @@ const Packages = () => {
       <div className={styles.Packages_list}>
         <PackageCard
           title="Researcher"
-          ieee={indian ? "INR 7000" : "USD 200"}
-          nonIeee={indian ? "INR 4000" : "USD 300"}
+          ieee={indian ? "INR 7000" : "USD 300"}
+          nonIeee={indian ? "INR 4000" : "USD 350"}
         />
         <PackageCard
-          title="Researcher"
-          ieee={indian ? "INR 7000" : "USD 200"}
-          nonIeee={indian ? "INR 4000" : "USD 300"}
+          title="Student"
+          ieee={indian ? "INR 5000" : "USD 200"}
+          nonIeee={indian ? "INR 7200" : "USD 250"}
         />
         <PackageCard
-          title="Researcher"
-          ieee={indian ? "INR 7000" : "USD 200"}
-          nonIeee={indian ? "INR 4000" : "USD 300"}
+          title="Attendees"
+          ieee={indian ? "INR 2500" : "USD 100"}
+          nonIeee={indian ? "INR 3500" : "USD 150"}
         />
       </div>
     </div>
@@ -54,8 +54,40 @@ const Packages = () => {
 function SubmissionPage() {
   return (
     <div className={styles.SubmissionPage}>
+            <h2 className="h2"> Details of Submission</h2>
+      <div className={styles.SubmissionPage_table}>
+      <table className={styles.SubmissionPage_table_resp}>
+  <thead className={styles.SubmissionPage_table_resp_Tittle}>
+    <tr>
+      <th>Category</th>
+      <th>Dates</th>
+    </tr>
+  </thead>
+  
+    <tr>
+      <td className={styles.SubmissionPage_table_resp_Content}>Full paper Submission Deadline</td>
+      <td className={styles.SubmissionPage_table_resp_Content}>October 31st , 2023</td>
+    </tr>
+    <tr>
+      <td className={styles.SubmissionPage_table_resp_Content}>Acceptance Notification Deadline</td>
+      <td className={styles.SubmissionPage_table_resp_Content}>January 31st , 2024</td>
+    </tr>
+    <tr>
+      <td className={styles.SubmissionPage_table_resp_Content}>Camera Ready Manuscript Deadline</td>
+      <td className={styles.SubmissionPage_table_resp_Content}>February 15th , 2024</td>
+    </tr>
+    <tr>
+      <td className={styles.SubmissionPage_table_resp_Content}>Conference registration Deadline</td>
+      <td className={styles.SubmissionPage_table_resp_Content}>February 28th , 2024</td>
+    </tr>
+    <tr>
+      <td className={styles.SubmissionPage_table_resp_Content}>Conference Dates</td>
+      <td className={styles.SubmissionPage_table_resp_Content}>March 24-26, 2024</td>
+    </tr>
+</table>
+</div>
             <div className={styles.SubmissionPage_heading}>
-      <h1 className={styles.h1}>SUBMISSION RULES</h1>
+      <h2 className="h2">SUBMISSION RULES</h2>
       <div className={styles.secion_rules_box}>
         <ul className={styles.SubmissionPage_square}>
           <li className={styles.SubmissionPage_notes}>
@@ -90,11 +122,11 @@ function SubmissionPage() {
           </li>
           <li className={styles.SubmissionPage_notes}>
             Reviewer assignment will be made using EasyChair.
-          </li>
+          <br></br></li>
         </ul>
       </div>
     </div>
-    <div className={styles.heading}>Fees</div>
+    <h2 className="h2">Fees</h2>
       <Packages />
     </div>
   );
