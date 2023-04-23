@@ -82,7 +82,7 @@ function SubmissionPage() {
     </tr>
     <tr>
       <td className={styles.SubmissionPage_table_resp_Content}>Conference Dates</td>
-      <td className={styles.SubmissionPage_table_resp_Content}>March 24-26, 2024</td>
+      <td className={styles.SubmissionPage_table_resp_Content}>April 26 - 28, 2024</td>
     </tr>
 </table>
 </div>

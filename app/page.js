@@ -22,7 +22,7 @@ const IndexPage = () => {
           Computationally Smart Systems &amp; Advanced Technologies
         </h1>
         <div className={`${styles.Hero_date}`}>
-          <BsFillCalendarEventFill /> 24 - 26 March 2024
+          <BsFillCalendarEventFill /> 26 - 28 April 2024
         </div>
         <div className={styles.Hero_place}>
           <FaLocationArrow />
