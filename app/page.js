@@ -1,10 +1,13 @@
 import committee from "@/app/committee";
+import keynoteSpeakers from "@/app/keynoteSpeakers";
+import chiefguest from "@/app/chiefguest";
 import IccssatLogo from "@/assets/iccssat-logo.png";
 import img1 from "@/assets/img/tracks-intro-img-01.jpg";
 import img2 from "@/assets/img/tracks-intro-img-02.jpg";
 import img3 from "@/assets/img/tracks-intro-img-03.jpg";
 import HomeGallery from "@/components/HomeGallery";
 import Subcommittee from "@/components/Subcommittee";
+import Keynote from "@/components/Keynote";
 import styles from "@/styles/pages/Index.module.scss";
 import Image from "next/image";
 import { BsArrowRight, BsFillCalendarEventFill } from "react-icons/bs";
@@ -392,7 +395,32 @@ const IndexPage = () => {
         </div>
       </div>
       <div className={styles.OrganisingCommittee}>
+        
+      <h2 className={`h2 ${styles.OrganisingCommittee_heading}`}>
+          Chief Guest
+        </h2>
+        {chiefguest.map(function (keynote) {
+          return (
+            <Keynote
+              title={keynote.title}
+              members={keynote.members}
+            />
+          );
+        })}
+
         <h2 className={`h2 ${styles.OrganisingCommittee_heading}`}>
+          Keynote Speakers
+        </h2>
+        {keynoteSpeakers.map(function (keynote) {
+          return (
+            <Keynote
+              title={keynote.title}
+              members={keynote.members}
+            />
+          );
+        })}
+
+        {/* <h2 className={`h2 ${styles.OrganisingCommittee_heading}`}>
           Organising Committee
         </h2>
         {committee.map(function (subcommittee) {
@@ -402,7 +430,7 @@ const IndexPage = () => {
               members={subcommittee.members}
             />
           );
-        })}
+        })} */}
       </div>
     </>
   );
