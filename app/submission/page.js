@@ -98,7 +98,7 @@ function SubmissionPage() {
           <li className={styles.SubmissionPage_notes}>
             {" "}
             Authors should submit their original unpublished work in PDF format
-            to ICCSSAT 2023.
+            to ICSCCAT 2024.
           </li>
           <li className={styles.SubmissionPage_notes}>
             Simultaneous submissions (papers already submitted to other
