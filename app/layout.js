@@ -3,8 +3,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-    title: 'ICCSSAT 2024',
-    description: 'First International Conference on Computationally Smart Systems and Advanced Technologies (ICCSSAT), 2024',
+    title: 'ICSCCAT  2024',
+    description: 'First International Conference on Computationally Smart Systems and Advanced Technologies (ICSCCAT), 2024',
 }
 
 export default function RootLayout({children}) {
