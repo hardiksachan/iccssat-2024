@@ -22,7 +22,7 @@ const IndexPage = () => {
           I<sup>st</sup> International Conference on
         </p>
         <h1 className={styles.Hero_name}>
-          Computationally Smart Systems &amp; Advanced Technologies
+          Secure Cyber Computing &amp; Advanced Technologies
         </h1>
         <div className={`${styles.Hero_date}`}>
           <BsFillCalendarEventFill /> 26 - 28 April 2024
@@ -139,6 +139,8 @@ const IndexPage = () => {
             </div>
           </div>
 
+          {/* CRYPTOGRAPHY, CYBER SECURITY AND NETWORK SECURITY */}
+          {/* ================================================= */}
           <div className={styles.card}>
             <div className={styles.card_front}>
               <h2 className="card-h2-front">
@@ -160,7 +162,6 @@ const IndexPage = () => {
               </button>
             </div>
           </div>
-
           <div id="popup-article-card02" class={styles.popup}>
             <div class={styles.popup_container}>
               <a href="#cards" class={styles.popup_close}>
@@ -213,7 +214,11 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
+          {/* ================================================= */}
 
+
+          {/* Cloud Computing and IoT */}
+          {/* ================================================= */}
           <div className={styles.card}>
             <div className={styles.card_front}>
               <h2 className="card-h2-front">Cloud Computing and IoT</h2>
@@ -234,7 +239,6 @@ const IndexPage = () => {
               </button>
             </div>
           </div>
-
           <div id="popup-article-card03" class={styles.popup}>
             <div class={styles.popup_container}>
               <a href="#cards" class={styles.popup_close}>
@@ -274,25 +278,29 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
+          {/* ================================================= */}
         </div>
+
+
+
         <div className={styles.cardContainer}>
+
+
+          {/*   Artificial Intelligence and Machine Learning  */}
+          {/* ================================================= */}
           <div className={styles.card}>
             <div className={styles.card_front}>
-              <h2 className="card-h2-front">
-                HEALTHCARE 4.0
-              </h2>
+              <h2 className="card-h2-front">Artificial Intelligence and Machine Learning</h2>
             </div>
             <div className={styles.card_back}>
-              <h2 className="card-h2">
-                HEALTHCARE 4.0
-              </h2>
+              <h2 className="card-h2">Artificial Intelligence and Machine Learning</h2>
               <p className="card-p">
-                The vast field of HEALTHCARE 4.0
-                deals with aspects of Signal Processing, Audio and Speech
-                Processing, Computer Vision, Natural Language Processing,
-                Supervised and unsupervised learning, Deep Learning, Data
-                Mining, Generative Models, Reinforcement Learning and
-                Optimization algorithm...
+                The vast field of Artificial Intelligence and Machine learning deals with aspects
+                of Signal Processing, Audio and Speech Processing, Computer Vision, Natural
+                Language Processing, Supervised and unsupervised learning, Deep Learning,
+                Data Mining, Generative Models, Reinforcement Learning and Optimization
+                algorithm. Artificial intelligence (AI) is the simulation of human intelligence
+                processes by machines...
               </p>
               <button id="card-btn">
                 <a href="#popup-article-card04" id="card-a">
@@ -301,7 +309,64 @@ const IndexPage = () => {
               </button>
             </div>
           </div>
+          <div id="popup-article-card05" class={styles.popup}>
+            <div class={styles.popup_container}>
+              <a href="#cards" class={styles.popup_close}>
+                <span class={styles.screen_reader}>close</span>
+              </a>
+              <div class={styles.popup__content}>
+                <h1 class={`${styles.popup_title} ${styles.r_title}`}>
+                  Cyber Security Security
+                </h1>
+                <p className="p-track"></p>{" "}
+                <p className="p-track">
+                  Dr. Shailender Kumar, Associate Professor <br /> DTU, New Delhi, India
+                </p>
+                <p className="p-track"></p>{" "}
+                <p className="p-track">
+                  Dr. Yogesh Kumar Meena, Associate Professor <br /> MNIT Jaipur
+                </p>
+                <p className="p-popup">
+                  The vast field of Artificial Intelligence and Machine learning deals with aspects
+                  of Signal Processing, Audio and Speech Processing, Computer Vision, Natural
+                  Language Processing, Supervised and unsupervised learning, Deep Learning,
+                  Data Mining, Generative Models, Reinforcement Learning and Optimization
+                  algorithm. Artificial intelligence (AI) is the simulation of human intelligence
+                  processes by machines, especially computer systems. These processes include
+                  learning (the acquisition of information and rules for using the information),
+                  reasoning (using rules to reach approximate or definite conclusions) and self-
+                  correction. Neuromorphic computing mimicking the human brain is one such
+                  wave towards AI capabilities. This course will help participant gain knowledge
+                  about the design of artificially intelligent systems from the bottom to the top
+                  level. Hardware implementation of such systems with emerging devices will
+                  also be dealt.
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* ================================================= */}
 
+          {/*             HEALTHCARE 4.0                        */}
+          {/* ================================================= */}
+          <div className={styles.card}>
+            <div className={styles.card_front}>
+              <h2 className="card-h2-front">HEALTHCARE 4.0</h2>
+            </div>
+            <div className={styles.card_back}>
+              <h2 className="card-h2">HEALTHCARE 4.0</h2>
+              <p className="card-p">
+                The goal of accelerating medical innovation while enhancing the effectiveness
+                of patient care becomes a reality in Healthcare 4.0, the fourth healthcare
+                revolution. Smart healthcare has steadily gained attention as information
+                technology has advanced...
+              </p>
+              <button id="card-btn">
+                <a href="#popup-article-card04" id="card-a">
+                  Read more
+                </a>
+              </button>
+            </div>
+          </div>
           <div id="popup-article-card04" class={styles.popup}>
             <div class={styles.popup_container}>
               <a href="#cards" class={styles.popup_close}>
@@ -329,10 +394,10 @@ const IndexPage = () => {
                   technologies, including the Internet of things (loT), big data, cloud computing,
                   and artificial intelligence, computer vision, smart healthcare is able to
                   completely revolutionize the current medical system, making it more effective,
-                  convenient, and individualized. 
+                  convenient, and individualized.
                 </p>
                 <p className="p-popup">
-                Planners in the healthcare sector and
+                  Planners in the healthcare sector and
                   government health institutions are looking to technology to deliver healthcare
                   that is smarter, faster, and more responsive. The healthcare industry has
                   benefited greatly from this technological development, which has improved
@@ -346,62 +411,12 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
-          <div className={styles.card}>
-            <div className={styles.card_front}>
-              <h2 className="card-h2-front">Healthcare 4.0</h2>
-            </div>
-            <div className={styles.card_back}>
-              <h2 className="card-h2">Healthcare 4.0</h2>
-              <p className="card-p">
-                The goal of accelerating medical innovation while enhancing the effectiveness
-                of patient care becomes a reality in Healthcare 4.0, the fourth healthcare
-                revolution. Smart healthcare has steadily gained attention as information
-                technology has advanced. Utilizing a new generation of information
-              </p>
-              <button id="card-btn">
-                <a href="#popup-article-card04" id="card-a">
-                  Read more
-                </a>
-              </button>
-            </div>
-          </div>
+          {/* ================================================= */}
 
-          <div id="popup-article-card05" class={styles.popup}>
-            <div class={styles.popup_container}>
-              <a href="#cards" class={styles.popup_close}>
-                <span class={styles.screen_reader}>close</span>
-              </a>
-              <div class={styles.popup__content}>
-                <h1 class={`${styles.popup_title} ${styles.r_title}`}>
-                  Cyber Security Security
-                </h1>
-                <p className="p-track"></p>{" "}
-                <p className="p-track">
-                  Dr. Deepak Singh Tomar , Associate Professor <br /> NIT Bhopal
-                </p>
-                <p className="p-track"></p>{" "}
-                <p className="p-track">
-                  Prof. Mayank Dave , Professor <br /> NIT Kurukshetra
-                </p>
-                <p className="p-popup">
-                  This track emphasizes on emerging research areas in cyber
-                  security and privacy. It includes cyber security concepts,
-                  threats in cyberspace, security standardization, security and
-                  privacy regulations and laws, cyber hacking, digitalforensics,
-                  Trust management, security andprivacy in blockchain
-                  technologies, intrusion detection and prevention, cyberspace
-                  protection and anti-malware, network traffic analysis,
-                  identity and access management in cyber systems, cyber threat
-                  intelligence, cryptography trends, steganography, security of
-                  cyber-physical systems and IoT, secure cloud and edge
-                  computing architectures, security of web-based applications,
-                  and cyber harmony and cyber welfare.
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
+
+
       <div className={styles.OrganisingCommittee}>
 
         <h2 className={`h2 ${styles.OrganisingCommittee_heading}`}>
