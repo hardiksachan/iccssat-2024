@@ -33,8 +33,8 @@ const Packages = () => {
       <div className={styles.Packages_list}>
         <PackageCard
           title="Researcher"
-          ieee={indian ? "INR 8400" : "USD 300"}
-          nonIeee={indian ? "INR 4000" : "USD 350"}
+          ieee={indian ? "INR 7000" : "USD 300"}
+          nonIeee={indian ? "INR 8400" : "USD 350"}
         />
         <PackageCard
           title="Student"
