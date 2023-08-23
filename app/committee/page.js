@@ -5,7 +5,7 @@ const Committee = () => {
      
       <div className={styles.heading}>Chief Patron</div>
       <div className={styles.List}>
-        Prof. (Dr) Ajay K. Sharma
+        Prof. (Dr.) Ajay K. Sharma
         Director, National Institute of
         Technology, Delhi
 
