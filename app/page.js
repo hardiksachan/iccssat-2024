@@ -350,10 +350,10 @@ const IndexPage = () => {
           {/* ================================================= */}
           <div className={styles.card}>
             <div className={styles.card_front}>
-              <h2 className="card-h2-front">HEALTHCARE 4.0</h2>
+              <h2 className="card-h2-front">Healthcare 4.0</h2>
             </div>
             <div className={styles.card_back}>
-              <h2 className="card-h2">HEALTHCARE 4.0</h2>
+              <h2 className="card-h2">Healthcare 4.0</h2>
               <p className="card-p">
                 The goal of accelerating medical innovation while enhancing the effectiveness
                 of patient care becomes a reality in Healthcare 4.0, the fourth healthcare

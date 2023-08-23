@@ -5,7 +5,7 @@ const Committee = () => {
      
       <div className={styles.heading}>Chief Patron</div>
       <div className={styles.List}>
-        Prof. (Dr) Ajay K. Sharma
+        Prof. (Dr.) Ajay K. Sharma
         Director, National Institute of
         Technology, Delhi
 
@@ -61,15 +61,15 @@ const Committee = () => {
           Australia
         </div>
         <div className={styles.List}>
-          Dr Pavel Kromer Associate Professor, VSB-Technical University of
+          Dr. Pavel Kromer Associate Professor, VSB-Technical University of
           Ostrava, Czech Republic
         </div>
         <div className={styles.List}>
-          Dr Pradeep Kumar Assistant Professor, University of KwaZulu-Natal,
+          Dr. Pradeep Kumar Assistant Professor, University of KwaZulu-Natal,
           Durban South Africa
         </div>
         <div className={styles.List}>
-          Dr Chaman Verma Assistant Professor, Eötvös Loránd University, Budapest,
+          Dr. Chaman Verma Assistant Professor, Eötvös Loránd University, Budapest,
           Hungary
         </div>
         <div className={styles.List}>
@@ -93,14 +93,11 @@ const Committee = () => {
         <div className={styles.List}>Prof. Binod Kumar Kanaujia, Director (Prof.), NIT Jalandhar</div>
         <div className={styles.List}>T. V. Vijay Kumar, Professor, JNU Delhi</div>
         <div className={styles.List}>Prof. B. K. Singh, Professor, NSUT Delhi</div>
-        <div className={styles.List}>Prof. Pramod Kumar Jain</div>
-        <div className={styles.List}>Director, IIT(BHU) Varanasi</div>
-        <div className={styles.List}>Prof. Kolin Poul,</div>
-        <div className={styles.List}>IIT Delhi, India</div>
-        <div className={styles.List}>Prof. Balaraman Ravindran, Professor, Indian Institute of</div>
-        <div className={styles.List}>Technology, Madras</div>
+        <div className={styles.List}>Prof. Pramod Kumar Jain, Director, IIT(BHU) Varanasi</div>
+        <div className={styles.List}>Prof. Kolin Poul, IIT Delhi, India</div>
+        <div className={styles.List}>Prof. Balaraman Ravindran, Professor, Indian Institute of Technology, Madras</div>
         <div className={styles.List}>Prof. Somenath Biswas, Professor, IIT Kanpur</div>
-        <div className={styles.List}>Prof Rajeev Sangal, Professor, IIIT Hyderabad</div>
+        <div className={styles.List}>Prof. Rajeev Sangal, Professor, IIIT Hyderabad</div>
         <div className={styles.List}>Prof. Manoj Mishra, Professor IIT Roorkee</div>
         <div className={styles.List}>Prof. Lalit Kumar Awasthi, Director, NIT Uttarakhand</div>
         <div className={styles.List}>Prof. B. B. Chaudhuri, Indian Statistical Institute Kolkata, INDIA</div>
@@ -112,7 +109,7 @@ const Committee = () => {
         <div className={styles.List}>Prof. B S Kaith, Professor, NIT Jalandhar</div>
         <div className={styles.List}>Prof. Hardeep Singh, Professor, GNDU Amritsar</div>
         <div className={styles.List}>Prof. Daya Gupta. Professor, DTU, New Delhi</div>
-        <div className={styles.List}>Dr Shailender Kumar, Professor, DTU New Delhi</div>
+        <div className={styles.List}>Dr. Shailender Kumar, Professor, DTU New Delhi</div>
         <div className={styles.List}>Prof. Ranjan Bose, Director (IIIT-Delhi)</div>
         <div className={styles.List}>Prof. Angshul Majumdar, Professor (CSE, ECE) (IIIT Delhi)</div>
         <div className={styles.List}>Dr. Badri N. Subudhi, Assistant Professor, IIT jammu</div>
@@ -124,11 +121,11 @@ const Committee = () => {
                     Steering Committee
  ======================================================== */}
 <div className={`${styles.heading} ${styles.heading___small}`}>Steering Committee </div>
-<div className={styles.List}>Prof Satish Chand, Professor, School of Computer Systems Sciences, JNU Delhi</div>
+<div className={styles.List}>Prof. Satish Chand, Professor, School of Computer Systems Sciences, JNU Delhi</div>
 <div className={styles.List}>Dr. Arvinder Kaur, Professor, School of Computer Systems Sciences, JNU Delhi</div>
 <div className={styles.List}>Prof. Harsh Verma, Professor, Department of CSE, NIT, Jalandhar</div>
 <div className={styles.List}>Prof. Manoj Kumar, Professor, Department of ECE, NIT, Delhi</div>
-<div className={styles.List}>Dr Jyoteesh Malhotra, Professor, Department of ECE, NIT, Delhi</div>
+<div className={styles.List}>Dr. Jyoteesh Malhotra, Professor, Department of ECE, NIT, Delhi</div>
 {/*==================================================================================== */}
 
 <div className={`${styles.heading} ${styles.heading___small}`}>Executive General Chair </div>
@@ -198,34 +195,34 @@ const Committee = () => {
         </div>
         <div className={styles.List}>Prof. Y. N. Singh Professor, IIT Kanpur</div>
         <div className={styles.List}>
-          Dr T P Sharma Associate Professor, NIT Hamirpur
+          Dr. T P Sharma Associate Professor, NIT Hamirpur
         </div>
         <div className={styles.List}>
-          Dr Kamlesh Dutta Associate Professor, NIT Hamirpur
+          Dr. Kamlesh Dutta Associate Professor, NIT Hamirpur
         </div>
         <div className={styles.List}>
-          Dr Roop Pahuja Associate Professor, NIT Jalandhar
+          Dr. Roop Pahuja Associate Professor, NIT Jalandhar
         </div>
         <div className={styles.List}>
-          Dr S K Pahuja Associate Professor, NIT Jalandhar
+          Dr. S K Pahuja Associate Professor, NIT Jalandhar
         </div>
         <div className={styles.List}>
-          Dr Monica Sikka Associate Professor, NIT Jalandhar
+          Dr. Monica Sikka Associate Professor, NIT Jalandhar
         </div>
         <div className={styles.List}>
-          Dr Nitai Basak Associate Professor, NIT Jalandhar
+          Dr. Nitai Basak Associate Professor, NIT Jalandhar
         </div>
         <div className={styles.List}>
-          Dr Mamta Khosla Associate Professor, NIT Jalandhar
+          Dr. Mamta Khosla Associate Professor, NIT Jalandhar
         </div>
         <div className={styles.List}>
-          Dr Rohit Mehra Associate Professor, NIT Jalandhar
+          Dr. Rohit Mehra Associate Professor, NIT Jalandhar
         </div>
         <div className={styles.List}>
-          Dr Deepak Kumar Sharma Associate Professor, IGDTUW New Delhi
+          Dr. Deepak Kumar Sharma Associate Professor, IGDTUW New Delhi
         </div>
         <div className={styles.List}>
-          Dr Nonita Sharma Associate Professor, IGDTUW New Delhi
+          Dr. Nonita Sharma Associate Professor, IGDTUW New Delhi
         </div>
       </div>
       <div className={styles.subcommittee}>
