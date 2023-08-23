@@ -87,12 +87,12 @@ const IndexPage = () => {
             <div className={styles.card_back}>
               <h2 className="card-h2">Data Analytics and Mining</h2>
               <p className="card-p">
-                All overtheworld, organizations areharnessingthetrue powerof
-                data andanalytics strategies to
-                optimizedecision-makingduringthis
-                timeofever-presentdisruption.As adata analyticsthetrack scales
-                cohesive ecosystems across theorganization to enhance
-                skillswhileusing AIfor ethically managingdata and privacy...
+              Nowadays, organizations throughout the world are utilizing the full potential of
+              data and analytics techniques to enhance decision-making capability. As a
+              data analytics the track scales cohesive ecosystems across the organization to
+              improve abilities while leveraging AI for properly managing data and privacy;
+              Implement strategies and innovations backed by data, analytics and data
+              science to navigate disruption and ...
               </p>
               <button id="card-btn">
                 <a href="#popup-article-card01" id="card-a">
@@ -118,22 +118,23 @@ const IndexPage = () => {
                   Prof.MayankVasta and Prof.RichaSingh , IITjodhpur
                 </p>
                 <p className="p-popup">
-                  All overtheworld, organizations areharnessingthetrue powerof
-                  data andanalytics strategies to
-                  optimizedecision-makingduringthis
-                  timeofever-presentdisruption.As adata analyticsthetrack scales
-                  cohesive ecosystems across theorganization to enhance
-                  skillswhileusing AIfor ethically managingdata and privacy
+                Nowadays, organizations throughout the world are utilizing the full potential of
+                data and analytics techniques to enhance decision-making capability. As a
+                data analytics the track scales cohesive ecosystems across the organization to
+                improve abilities while leveraging AI for properly managing data and privacy;
+                Implement strategies and innovations backed by data, analytics and data
+                science to navigate disruption and Lead purposefully by balancing trust,
+                accountability, governance and security with adaptability and responsiveness.
                 </p>
                 <p className="p-popup">
-                  Implement strategies and innovationsbacked bydata, analytics
-                  and data science to navigate disruption. Lead purposefully by
-                  balancing trust, accountability, governance and security with
-                  adaptability and responsiveness. Scale the purpose beyond
-                  organizational silos, across value chains and ecosystems to
-                  foster societal perseverance. Leveragecloud-based
-                  datamanagement to optimize costs in the current economic
-                  environment{" "}
+                Data mining is the process of looking for examples to extract data from an
+                informational collection with a smart technique and transform the data into an
+                understandable structure for further use. This track emphasizes data analysis,
+                data mining and its application related to Data mining structures in authentic
+                money-related business domain assessment, Application of information mining
+                in situating, Data mining and Web Application, Engineering information
+                mining, Data Mining in safety, Social Data Mining, Neural Networks and Data
+                Mining, Medical Data Mining, Data Mining in Healthcare.
                 </p>
               </div>
             </div>
