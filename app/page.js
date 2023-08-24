@@ -22,7 +22,7 @@ const IndexPage = () => {
           I<sup>st</sup> International Conference on
         </p>
         <h1 className={styles.Hero_name}>
-          Computationally Smart Systems &amp; Advanced Technologies
+          Secure Cyber Computing &amp; Advanced Technologies
         </h1>
         <div className={`${styles.Hero_date}`}>
           <BsFillCalendarEventFill /> 26 - 28 April 2024
@@ -41,22 +41,29 @@ const IndexPage = () => {
         </h1>
         <div className={styles.Intro}>
           <div className={styles.Intro_content}>
+            
             <p className={`p mb-md ${styles.Intro_paragraph}`}>
-              The area of computing and communication has grown evidently since
-              past two decades with wide ranging aspects. Computing includes
-              designing, developing and building hardware and software systems;
-              processing, structuring, and managing various kinds of
-              information; doing scientific research on and with computers;
-              making computer systems behave intelligently; and creating and
-              using communications and entertainment media. <br />
-              <br /> The field of computing includes computer engineering,
-              software engineering, computer science, information systems,
-              information technology and the list is virtually endless, and the
-              possibilities are vast. Communication means to share, it is the
-              act of conveying intended meanings from one entity or group to
-              another through the use of mutually understood signs and semiotic
-              rules. It also has wide ranging applied areas which includes
-              Network communication, Security etc. <br /> <br />
+            Over the last two decades, the realm of computing and communication has notably expanded, 
+            encompassing a diverse array of facets. Computing involves designing, developing and building 
+            hardware and software systems; processing, structuring, and managing various kinds of information; 
+            doing scientific research on and with computers; making computer systems behave intelligently; 
+            and creating and using communications and entertainment media.<br />
+              <br />
+            Secure cyber computing refers to the practice of ensuring the security, confidentiality, integrity,
+             and availability of computing systems, networks, and data in the digital realm. 
+             It involves a comprehensive set of strategies, practices, and technologies aimed at safeguarding 
+             digital assets from various cyber threats, attacks, and vulnerabilities. It includes a range of 
+             measures designed to protect information, systems, and users from unauthorized access, data breaches, 
+             cyberattacks, and other security risks.
+             <br /> <br />
+            "Advanced technology" refers to cutting-edge, highly developed, and innovative tools, techniques, or systems 
+            that represent the forefront of scientific and technological progress in a particular field. These technologies 
+            often involve a significant departure from traditional methods and bring about new capabilities, efficiencies, 
+            and possibilities that were previously not achievable. The integration of AI in various area of research including 
+            data analysis, security, computing environment and healthcare brings about innovative solutions and capabilities 
+            that were previously not possible using traditional methods.
+
+            <br /> <br />
             </p>
 
             <a href="" className={`${styles.Intro_learnMore} mb-lg`}>
