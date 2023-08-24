@@ -294,7 +294,7 @@ const IndexPage = () => {
               Artificial Intelligence and Machine Learning
               </h2>
               <p className="card-p">
-                The vast field of HEALTHCARE 4.0
+                The vast field of AI 
                 deals with aspects of Signal Processing, Audio and Speech
                 Processing, Computer Vision, Natural Language Processing,
                 Supervised and unsupervised learning, Deep Learning, Data
@@ -316,7 +316,7 @@ const IndexPage = () => {
               </a>
               <div class={styles.popup__content}>
                 <h1 class={`${styles.popup_title} ${styles.r_title}`}>
-                  HEALTHCARE 4.0
+                Artificial Intelligence and Machine Learning
                 </h1>
                 <p className="p-track"></p>{" "}
                 <p className="p-track">
@@ -326,29 +326,26 @@ const IndexPage = () => {
                 <p className="p-track"></p>{" "}
                 <p className="p-track">
                   Dr. Deepak Ranjan Nayak, Assistant Professor <br />
-                  NIT Jaipur, India
+                  MNNIT Jaipur, India
                 </p>
                 <p className="p-popup">
-                  The goal of accelerating medical innovation while enhancing the effectiveness
-                  of patient care becomes a reality in Healthcare 4.0, the fourth healthcare
-                  revolution. Smart healthcare has steadily gained attention as information
-                  technology has advanced. Utilizing a new generation of information
-                  technologies, including the Internet of things (loT), big data, cloud computing,
-                  and artificial intelligence, computer vision, smart healthcare is able to
-                  completely revolutionize the current medical system, making it more effective,
-                  convenient, and individualized. 
+                The vast field of Artificial Intelligence and Machine learning deals with 
+                aspects of Signal Processing, Audio and Speech Processing, Computer Vision, 
+                Natural Language Processing, Supervised and unsupervised learning, 
+                Deep Learning, Data Mining, Generative Models, Reinforcement Learning 
+                and Optimization algorithm. Artificial intelligence (AI) is the simulation 
+                of human intelligence processes by machines, especially computer systems. 
+                These processes include learning (the acquisition of information and rules 
+                for using the information), reasoning (using rules to reach approximate or 
+                definite conclusions) and self-correction. Neuromorphic computing mimicking 
+                the human brain is one such wave towards AI capabilities. This course will help 
+                participant gain knowledge about the design of artificially intelligent systems 
+                from the bottom to the top level. Hardware implementation of such systems with 
+                emerging devices will also be dealt.
+
                 </p>
                 <p className="p-popup">
-                Planners in the healthcare sector and
-                  government health institutions are looking to technology to deliver healthcare
-                  that is smarter, faster, and more responsive. The healthcare industry has
-                  benefited greatly from this technological development, which has improved
-                  the efficiency and security of patient treatment. Healthcare professionals are
-                  progressively adopting new digital trends, such as wearable gadgets that allow
-                  patients to supplement their health data and networked equipment that
-                  enable remote monitoring and patient care. This track provides the
-                  opportunity to learn the recent research trends and future scope of smart
-                  healthcare.
+                 
                 </p>
               </div>
             </div>
