@@ -312,7 +312,7 @@ const IndexPage = () => {
                 processes by machines...
               </p>
               <button id="card-btn">
-                <a href="#popup-article-card04" id="card-a">
+                <a href="#popup-article-card05" id="card-a">
                   Read more
                 </a>
               </button>
@@ -333,8 +333,8 @@ const IndexPage = () => {
                 </p>
                 <p className="p-track"></p>{" "}
                 <p className="p-track">
-                  Dr. Deepak Ranjan Nayak, Assistant Professor <br />
-                  MNNIT Jaipur, India
+                Dr. Yogesh Kumar Meena, Associate Professor,<br/> 
+                MNIT Jaipur
                 </p>
                 <p className="p-popup">
                 The vast field of Artificial Intelligence and Machine learning deals with 
@@ -388,7 +388,7 @@ const IndexPage = () => {
               </a>
               <div class={styles.popup__content}>
                 <h1 class={`${styles.popup_title} ${styles.r_title}`}>
-                  HEALTHCARE 4.0
+                Healthcare 4.0
                 </h1>
                 <p className="p-track"></p>{" "}
                 <p className="p-track">
