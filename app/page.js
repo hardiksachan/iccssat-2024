@@ -126,13 +126,13 @@ const IndexPage = () => {
                   skills while using AI for ethically managing data and privacy
                 </p>
                 <p className="p-popup">
-                  Implement strategies and innovationsbacked bydata, analytics
+                  Implement strategies and innovationsbacked by data, analytics
                   and data science to navigate disruption. Lead purposefully by
                   balancing trust, accountability, governance and security with
                   adaptability and responsiveness. Scale the purpose beyond
                   organizational silos, across value chains and ecosystems to
-                  foster societal perseverance. Leveragecloud-based
-                  datamanagement to optimize costs in the current economic
+                  foster societal perseverance. Leverage cloud-based
+                  data management to optimize costs in the current economic
                   environment{" "}
                 </p>
               </div>
