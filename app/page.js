@@ -112,18 +112,18 @@ const IndexPage = () => {
                   Data Analytics and Mining
                 </h1>
                 <p className="p-track">
-                  Prof. Vikram Goyal , Professor IIIT Delhi
+                  Prof. Vikram Goyal, Professor IIIT Delhi
                 </p>
                 <p className="p-track">
-                  Prof.MayankVasta and Prof.RichaSingh , IITjodhpur
+                  Prof. Mayank Vasta and Prof. Richa Singh , IIT Jodhpur
                 </p>
                 <p className="p-popup">
-                  All overtheworld, organizations areharnessingthetrue powerof
-                  data andanalytics strategies to
-                  optimizedecision-makingduringthis
-                  timeofever-presentdisruption.As adata analyticsthetrack scales
-                  cohesive ecosystems across theorganization to enhance
-                  skillswhileusing AIfor ethically managingdata and privacy
+                  All overtheworld, organizations are harnessing the true power of
+                  data and analytics strategies to
+                  optimize decision-making during this
+                  time of ever-present disruption. As a data analytics the track scales
+                  cohesive ecosystems across the organization to enhance
+                  skills while using AI for ethically managing data and privacy
                 </p>
                 <p className="p-popup">
                   Implement strategies and innovationsbacked bydata, analytics
