@@ -286,12 +286,12 @@ const IndexPage = () => {
           <div className={styles.card}>
             <div className={styles.card_front}>
               <h2 className="card-h2-front">
-                HEALTHCARE 4.0
+                Artificial Intelligence and Machine Learning
               </h2>
             </div>
             <div className={styles.card_back}>
               <h2 className="card-h2">
-                HEALTHCARE 4.0
+              Artificial Intelligence and Machine Learning
               </h2>
               <p className="card-p">
                 The vast field of HEALTHCARE 4.0
