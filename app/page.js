@@ -1,7 +1,7 @@
 import committee from "@/app/committee";
 import keynoteSpeakers from "@/app/keynoteSpeakers";
 import chiefguest from "@/app/chiefguest";
-import IccssatLogo from "@/assets/iccssat-logo.png";
+import IccssatLogo from "@/assets/ICSCCAT logo.png";
 import img1 from "@/assets/img/tracks-intro-img-01.jpg";
 import img2 from "@/assets/img/tracks-intro-img-02.jpg";
 import img3 from "@/assets/img/tracks-intro-img-03.jpg";
@@ -12,7 +12,7 @@ import styles from "@/styles/pages/Index.module.scss";
 import Image from "next/image";
 import { BsArrowRight, BsFillCalendarEventFill } from "react-icons/bs";
 import { FaLocationArrow } from "react-icons/fa";
-
+//ushing to branch dev
 const IndexPage = () => {
   return (
     <>
@@ -41,22 +41,29 @@ const IndexPage = () => {
         </h1>
         <div className={styles.Intro}>
           <div className={styles.Intro_content}>
+            
             <p className={`p mb-md ${styles.Intro_paragraph}`}>
-              The area of computing and communication has grown evidently since
-              past two decades with wide ranging aspects. Computing includes
-              designing, developing and building hardware and software systems;
-              processing, structuring, and managing various kinds of
-              information; doing scientific research on and with computers;
-              making computer systems behave intelligently; and creating and
-              using communications and entertainment media. <br />
-              <br /> The field of computing includes computer engineering,
-              software engineering, computer science, information systems,
-              information technology and the list is virtually endless, and the
-              possibilities are vast. Communication means to share, it is the
-              act of conveying intended meanings from one entity or group to
-              another through the use of mutually understood signs and semiotic
-              rules. It also has wide ranging applied areas which includes
-              Network communication, Security etc. <br /> <br />
+            Over the last two decades, the realm of computing and communication has notably expanded, 
+            encompassing a diverse array of facets. Computing involves designing, developing and building 
+            hardware and software systems; processing, structuring, and managing various kinds of information; 
+            doing scientific research on and with computers; making computer systems behave intelligently; 
+            and creating and using communications and entertainment media.<br />
+              <br />
+            Secure cyber computing refers to the practice of ensuring the security, confidentiality, integrity,
+             and availability of computing systems, networks, and data in the digital realm. 
+             It involves a comprehensive set of strategies, practices, and technologies aimed at safeguarding 
+             digital assets from various cyber threats, attacks, and vulnerabilities. It includes a range of 
+             measures designed to protect information, systems, and users from unauthorized access, data breaches, 
+             cyberattacks, and other security risks.
+             <br /> <br />
+            "Advanced technology" refers to cutting-edge, highly developed, and innovative tools, techniques, or systems 
+            that represent the forefront of scientific and technological progress in a particular field. These technologies 
+            often involve a significant departure from traditional methods and bring about new capabilities, efficiencies, 
+            and possibilities that were previously not achievable. The integration of AI in various area of research including 
+            data analysis, security, computing environment and healthcare brings about innovative solutions and capabilities 
+            that were previously not possible using traditional methods.
+
+            <br /> <br />
             </p>
 
             <a href="" className={`${styles.Intro_learnMore} mb-lg`}>
@@ -87,6 +94,7 @@ const IndexPage = () => {
             <div className={styles.card_back}>
               <h2 className="card-h2">Data Analytics and Mining</h2>
               <p className="card-p">
+
               Nowadays, organizations throughout the world are utilizing the full potential of
               data and analytics techniques to enhance decision-making capability. As a
               data analytics the track scales cohesive ecosystems across the organization to
@@ -112,10 +120,10 @@ const IndexPage = () => {
                   Data Analytics and Mining
                 </h1>
                 <p className="p-track">
-                  Prof. Vikram Goyal , Professor IIIT Delhi
+                  Prof. Vikram Goyal, Professor IIIT Delhi
                 </p>
                 <p className="p-track">
-                  Prof.MayankVasta and Prof.RichaSingh , IITjodhpur
+                  Prof. Mayank Vasta and Prof. Richa Singh , IIT Jodhpur
                 </p>
                 <p className="p-popup">
                 Nowadays, organizations throughout the world are utilizing the full potential of
@@ -153,8 +161,8 @@ const IndexPage = () => {
               <p className="card-p">
                 Computer network security consists of measures taken by some
                 organizations or businesses to monitor and avoid unauthorized
-                access from outside attackers.In the initial days of the
-                internet,its use was limited to development purposes...
+                access from outside attackers. In the initial days of the
+                internet, its use was limited to development purposes...
               </p>
               <button id="card-btn">
                 <a href="#popup-article-card02" id="card-a">
@@ -173,18 +181,18 @@ const IndexPage = () => {
                   Cryptography, Cyber Security and Network Security
                 </h1>
                 <p className="p-track">
-                  Prof. Harsh K. Verma , Professor , Department Of Computer
-                  Science <br /> NIT Jalandhar
+                  Prof. Harsh K. Verma, Professor, Department Of Computer
+                  Science Engineering<br /> NIT Jalandhar
                 </p>
                 <p className="p-track">
-                  Prof.Manoj Kumar , Professor , ComputerScienceEngineering{" "}
+                  Prof. Manoj Kumar, Professor, Computer Science Engineering{" "}
                   <br /> NIT Jalandhar
                 </p>
                 <p className="p-popup">
                   Computer network security consists of measures taken by some
                   organizations or businesses to monitor and avoid unauthorized
-                  access from outside attackers.In the initial days of the
-                  internet,its use was limited to development purposes.
+                  access from outside attackers. In the initial days of the
+                  internet, its use was limited to development purposes.
                 </p>
                 <p className="p-popup">
                   The topics in the track include but are not limited to Design
@@ -229,8 +237,8 @@ const IndexPage = () => {
               <p className="card-p">
                 The track has a vast expanse in the field Data Analytics,
                 Distributed & Parallel Computing, High Performance
-                Computing,Cloud Quality Management & Service level
-                agreement,Cluster,Cloud,& Grid Computing, Mobile Computing, Edge
+                Computing, Cloud Quality Management & Service level
+                agreement, Cluster, Cloud & Grid Computing, Mobile Computing, Edge
                 Computing, Fog Computing, Cognitive Computing...
               </p>
               <button id="card-btn">
@@ -251,28 +259,28 @@ const IndexPage = () => {
                 </h1>
                 <p className="p-track"></p>{" "}
                 <p className="p-track">
-                  Dr. Mashtaq Ahmed , Associate Professor <br /> MNIT Jaipur
+                  Dr. Mashtaq Ahmed, Associate Professor <br /> MNIT Jaipur
                 </p>
                 <p className="p-popup">
                   The track has a vast expanse in the field Data Analytics,
                   Distributed & Parallel Computing, High Performance
-                  Computing,Cloud Quality Management & Service level
-                  agreement,Cluster,Cloud,& Grid Computing, Mobile Computing,
+                  Computing, Cloud Quality Management & Service level
+                  agreement, Cluster, Cloud & Grid Computing, Mobile Computing,
                   Edge Computing, Fog Computing, Cognitive Computing.
                 </p>
                 <p className="p-popup">
                   Implementing and complementing AI into your cloud strategy
                   promises a journey of unlocking business potential and
-                  operating at greater agility and efficiency.Cost savings and
+                  operating at greater agility and efficiency. Cost savings and
                   enhanced data management are just some of the added bonuses
                   that come with investing in the right technology and digital
                   transformation roadmap.
                 </p>
                 <p className="p-popup">
-                  While the benefits are abundant,the obstacles in execution are
+                  While the benefits are abundant, the obstacles in execution are
                   as detrimental. Integration challenges, data privacy
-                  andconcerns around connectivity can be major setbacks toyour
-                  strategy.Hear from our experts on how you can successfully
+                  andconcerns around connectivity can be major setbacks to your
+                  strategy. Hear from our experts on how you can successfully
                   revolutionize your cloud computing solutions with AI andd is
                   cover new paths of development
                 </p>
@@ -304,7 +312,7 @@ const IndexPage = () => {
                 processes by machines...
               </p>
               <button id="card-btn">
-                <a href="#popup-article-card04" id="card-a">
+                <a href="#popup-article-card05" id="card-a">
                   Read more
                 </a>
               </button>
@@ -317,7 +325,7 @@ const IndexPage = () => {
               </a>
               <div class={styles.popup__content}>
                 <h1 class={`${styles.popup_title} ${styles.r_title}`}>
-                  Cyber Security Security
+                Artificial Intelligence and Machine Learning
                 </h1>
                 <p className="p-track"></p>{" "}
                 <p className="p-track">
@@ -325,22 +333,27 @@ const IndexPage = () => {
                 </p>
                 <p className="p-track"></p>{" "}
                 <p className="p-track">
-                  Dr. Yogesh Kumar Meena, Associate Professor <br /> MNIT Jaipur
+                Dr. Yogesh Kumar Meena, Associate Professor,<br/> 
+                MNIT Jaipur
                 </p>
                 <p className="p-popup">
-                  The vast field of Artificial Intelligence and Machine learning deals with aspects
-                  of Signal Processing, Audio and Speech Processing, Computer Vision, Natural
-                  Language Processing, Supervised and unsupervised learning, Deep Learning,
-                  Data Mining, Generative Models, Reinforcement Learning and Optimization
-                  algorithm. Artificial intelligence (AI) is the simulation of human intelligence
-                  processes by machines, especially computer systems. These processes include
-                  learning (the acquisition of information and rules for using the information),
-                  reasoning (using rules to reach approximate or definite conclusions) and self-
-                  correction. Neuromorphic computing mimicking the human brain is one such
-                  wave towards AI capabilities. This course will help participant gain knowledge
-                  about the design of artificially intelligent systems from the bottom to the top
-                  level. Hardware implementation of such systems with emerging devices will
-                  also be dealt.
+                The vast field of Artificial Intelligence and Machine learning deals with 
+                aspects of Signal Processing, Audio and Speech Processing, Computer Vision, 
+                Natural Language Processing, Supervised and unsupervised learning, 
+                Deep Learning, Data Mining, Generative Models, Reinforcement Learning 
+                and Optimization algorithm. Artificial intelligence (AI) is the simulation 
+                of human intelligence processes by machines, especially computer systems. 
+                These processes include learning (the acquisition of information and rules 
+                for using the information), reasoning (using rules to reach approximate or 
+                definite conclusions) and self-correction. Neuromorphic computing mimicking 
+                the human brain is one such wave towards AI capabilities. This course will help 
+                participant gain knowledge about the design of artificially intelligent systems 
+                from the bottom to the top level. Hardware implementation of such systems with 
+                emerging devices will also be dealt.
+
+                </p>
+                <p className="p-popup">
+                 
                 </p>
               </div>
             </div>
@@ -375,7 +388,7 @@ const IndexPage = () => {
               </a>
               <div class={styles.popup__content}>
                 <h1 class={`${styles.popup_title} ${styles.r_title}`}>
-                  HEALTHCARE 4.0
+                Healthcare 4.0
                 </h1>
                 <p className="p-track"></p>{" "}
                 <p className="p-track">
