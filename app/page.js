@@ -92,7 +92,7 @@ const IndexPage = () => {
                   optimize decision-making during this
                   time of ever-present disruption. As a data analytics the track scales
                   cohesive ecosystems across the organization to enhance
-                  skills while using AI for ethically managing data and privacy
+                  skills while using AI for ethically managing data and privacy...
               </p>
               <button id="card-btn">
                 <a href="#popup-article-card01" id="card-a">
@@ -150,8 +150,8 @@ const IndexPage = () => {
               <p className="card-p">
                 Computer network security consists of measures taken by some
                 organizations or businesses to monitor and avoid unauthorized
-                access from outside attackers.In the initial days of the
-                internet,its use was limited to development purposes...
+                access from outside attackers. In the initial days of the
+                internet, its use was limited to development purposes...
               </p>
               <button id="card-btn">
                 <a href="#popup-article-card02" id="card-a">
@@ -171,18 +171,18 @@ const IndexPage = () => {
                   Cryptography, Cyber Security and Network Security
                 </h1>
                 <p className="p-track">
-                  Prof. Harsh K. Verma , Professor , Department Of Computer
-                  Science <br /> NIT Jalandhar
+                  Prof. Harsh K. Verma, Professor, Department Of Computer
+                  Science Engineering<br /> NIT Jalandhar
                 </p>
                 <p className="p-track">
-                  Prof.Manoj Kumar , Professor , ComputerScienceEngineering{" "}
+                  Prof. Manoj Kumar, Professor, Computer Science Engineering{" "}
                   <br /> NIT Jalandhar
                 </p>
                 <p className="p-popup">
                   Computer network security consists of measures taken by some
                   organizations or businesses to monitor and avoid unauthorized
-                  access from outside attackers.In the initial days of the
-                  internet,its use was limited to development purposes.
+                  access from outside attackers. In the initial days of the
+                  internet, its use was limited to development purposes.
                 </p>
                 <p className="p-popup">
                   The topics in the track include but are not limited to Design
@@ -223,8 +223,8 @@ const IndexPage = () => {
               <p className="card-p">
                 The track has a vast expanse in the field Data Analytics,
                 Distributed & Parallel Computing, High Performance
-                Computing,Cloud Quality Management & Service level
-                agreement,Cluster,Cloud,& Grid Computing, Mobile Computing, Edge
+                Computing, Cloud Quality Management & Service level
+                agreement, Cluster, Cloud & Grid Computing, Mobile Computing, Edge
                 Computing, Fog Computing, Cognitive Computing...
               </p>
               <button id="card-btn">
@@ -246,28 +246,28 @@ const IndexPage = () => {
                 </h1>
                 <p className="p-track"></p>{" "}
                 <p className="p-track">
-                  Dr. Mashtaq Ahmed , Associate Professor <br /> MNIT Jaipur
+                  Dr. Mashtaq Ahmed, Associate Professor <br /> MNIT Jaipur
                 </p>
                 <p className="p-popup">
                   The track has a vast expanse in the field Data Analytics,
                   Distributed & Parallel Computing, High Performance
-                  Computing,Cloud Quality Management & Service level
-                  agreement,Cluster,Cloud,& Grid Computing, Mobile Computing,
+                  Computing, Cloud Quality Management & Service level
+                  agreement, Cluster, Cloud & Grid Computing, Mobile Computing,
                   Edge Computing, Fog Computing, Cognitive Computing.
                 </p>
                 <p className="p-popup">
                   Implementing and complementing AI into your cloud strategy
                   promises a journey of unlocking business potential and
-                  operating at greater agility and efficiency.Cost savings and
+                  operating at greater agility and efficiency. Cost savings and
                   enhanced data management are just some of the added bonuses
                   that come with investing in the right technology and digital
                   transformation roadmap.
                 </p>
                 <p className="p-popup">
-                  While the benefits are abundant,the obstacles in execution are
+                  While the benefits are abundant, the obstacles in execution are
                   as detrimental. Integration challenges, data privacy
-                  andconcerns around connectivity can be major setbacks toyour
-                  strategy.Hear from our experts on how you can successfully
+                  andconcerns around connectivity can be major setbacks to your
+                  strategy. Hear from our experts on how you can successfully
                   revolutionize your cloud computing solutions with AI andd is
                   cover new paths of development
                 </p>
@@ -377,18 +377,18 @@ const IndexPage = () => {
                 </h1>
                 <p className="p-track"></p>{" "}
                 <p className="p-track">
-                  Dr. Deepak Singh Tomar , Associate Professor <br /> NIT Bhopal
+                  Dr. Deepak Singh Tomar, Associate Professor <br /> MANIT Bhopal
                 </p>
                 <p className="p-track"></p>{" "}
                 <p className="p-track">
-                  Prof. Mayank Dave , Professor <br /> NIT Kurukshetra
+                  Prof. Mayank Dave, Professor <br /> NIT Kurukshetra
                 </p>
                 <p className="p-popup">
                   This track emphasizes on emerging research areas in cyber
                   security and privacy. It includes cyber security concepts,
                   threats in cyberspace, security standardization, security and
-                  privacy regulations and laws, cyber hacking, digitalforensics,
-                  Trust management, security andprivacy in blockchain
+                  privacy regulations and laws, cyber hacking, digital forensics,
+                  Trust management, security and privacy in blockchain
                   technologies, intrusion detection and prevention, cyberspace
                   protection and anti-malware, network traffic analysis,
                   identity and access management in cyber systems, cyber threat
