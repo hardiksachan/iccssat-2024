@@ -1,7 +1,7 @@
 import committee from "@/app/committee";
 import keynoteSpeakers from "@/app/keynoteSpeakers";
 import chiefguest from "@/app/chiefguest";
-import IccssatLogo from "@/assets/iccssat-logo.png";
+import IccssatLogo from "@/assets/ICSCCAT logo.png";
 import img1 from "@/assets/img/tracks-intro-img-01.jpg";
 import img2 from "@/assets/img/tracks-intro-img-02.jpg";
 import img3 from "@/assets/img/tracks-intro-img-03.jpg";
