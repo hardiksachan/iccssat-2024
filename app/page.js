@@ -87,12 +87,12 @@ const IndexPage = () => {
             <div className={styles.card_back}>
               <h2 className="card-h2">Data Analytics and Mining</h2>
               <p className="card-p">
-                All overtheworld, organizations areharnessingthetrue powerof
-                data andanalytics strategies to
-                optimizedecision-makingduringthis
-                timeofever-presentdisruption.As adata analyticsthetrack scales
-                cohesive ecosystems across theorganization to enhance
-                skillswhileusing AIfor ethically managingdata and privacy...
+              All overtheworld, organizations are harnessing the true power of
+                  data and analytics strategies to
+                  optimize decision-making during this
+                  time of ever-present disruption. As a data analytics the track scales
+                  cohesive ecosystems across the organization to enhance
+                  skills while using AI for ethically managing data and privacy
               </p>
               <button id="card-btn">
                 <a href="#popup-article-card01" id="card-a">
