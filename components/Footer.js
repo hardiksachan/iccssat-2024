@@ -44,7 +44,7 @@ const Footer = () => {
                     <a className={styles.CreatedBy_link} href="#">Anjita</a>, <a
                         className={styles.CreatedBy_link} href="#">Rohit</a>, <a
                         className={styles.CreatedBy_link} href="#">Rohit</a>, <a
-                        className={styles.CreatedBy_link} href="#">Rohit</a> &amp <a
+                        className={styles.CreatedBy_link} href="#">Rohit</a> <a
                         className={styles.CreatedBy_link} href="#">Rohit</a></p>
             </div>
         </>
