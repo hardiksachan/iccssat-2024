@@ -12,7 +12,7 @@ import styles from "@/styles/pages/Index.module.scss";
 import Image from "next/image";
 import { BsArrowRight, BsFillCalendarEventFill } from "react-icons/bs";
 import { FaLocationArrow } from "react-icons/fa";
-
+//ushing to branch dev
 const IndexPage = () => {
   return (
     <>
