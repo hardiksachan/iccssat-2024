@@ -94,12 +94,13 @@ const IndexPage = () => {
             <div className={styles.card_back}>
               <h2 className="card-h2">Data Analytics and Mining</h2>
               <p className="card-p">
-              All overtheworld, organizations are harnessing the true power of
-                  data and analytics strategies to
-                  optimize decision-making during this
-                  time of ever-present disruption. As a data analytics the track scales
-                  cohesive ecosystems across the organization to enhance
-                  skills while using AI for ethically managing data and privacy...
+
+              Nowadays, organizations throughout the world are utilizing the full potential of
+              data and analytics techniques to enhance decision-making capability. As a
+              data analytics the track scales cohesive ecosystems across the organization to
+              improve abilities while leveraging AI for properly managing data and privacy;
+              Implement strategies and innovations backed by data, analytics and data
+              science to navigate disruption and ...
               </p>
               <button id="card-btn">
                 <a href="#popup-article-card01" id="card-a">
@@ -125,27 +126,30 @@ const IndexPage = () => {
                   Prof. Mayank Vasta and Prof. Richa Singh , IIT Jodhpur
                 </p>
                 <p className="p-popup">
-                  All overtheworld, organizations are harnessing the true power of
-                  data and analytics strategies to
-                  optimize decision-making during this
-                  time of ever-present disruption. As a data analytics the track scales
-                  cohesive ecosystems across the organization to enhance
-                  skills while using AI for ethically managing data and privacy
+                Nowadays, organizations throughout the world are utilizing the full potential of
+                data and analytics techniques to enhance decision-making capability. As a
+                data analytics the track scales cohesive ecosystems across the organization to
+                improve abilities while leveraging AI for properly managing data and privacy;
+                Implement strategies and innovations backed by data, analytics and data
+                science to navigate disruption and Lead purposefully by balancing trust,
+                accountability, governance and security with adaptability and responsiveness.
                 </p>
                 <p className="p-popup">
-                  Implement strategies and innovationsbacked by data, analytics
-                  and data science to navigate disruption. Lead purposefully by
-                  balancing trust, accountability, governance and security with
-                  adaptability and responsiveness. Scale the purpose beyond
-                  organizational silos, across value chains and ecosystems to
-                  foster societal perseverance. Leverage cloud-based
-                  data management to optimize costs in the current economic
-                  environment{" "}
+                Data mining is the process of looking for examples to extract data from an
+                informational collection with a smart technique and transform the data into an
+                understandable structure for further use. This track emphasizes data analysis,
+                data mining and its application related to Data mining structures in authentic
+                money-related business domain assessment, Application of information mining
+                in situating, Data mining and Web Application, Engineering information
+                mining, Data Mining in safety, Social Data Mining, Neural Networks and Data
+                Mining, Medical Data Mining, Data Mining in Healthcare.
                 </p>
               </div>
             </div>
           </div>
 
+          {/* CRYPTOGRAPHY, CYBER SECURITY AND NETWORK SECURITY */}
+          {/* ================================================= */}
           <div className={styles.card}>
             <div className={styles.card_front}>
               <h2 className="card-h2-front">
@@ -167,7 +171,6 @@ const IndexPage = () => {
               </button>
             </div>
           </div>
-
           <div id="popup-article-card02" class={styles.popup}>
             <div class={styles.popup_container}>
               <a href="#cards" class={styles.popup_close}>
@@ -220,7 +223,11 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
+          {/* ================================================= */}
 
+
+          {/* Cloud Computing and IoT */}
+          {/* ================================================= */}
           <div className={styles.card}>
             <div className={styles.card_front}>
               <h2 className="card-h2-front">Cloud Computing and IoT</h2>
@@ -241,7 +248,6 @@ const IndexPage = () => {
               </button>
             </div>
           </div>
-
           <div id="popup-article-card03" class={styles.popup}>
             <div class={styles.popup_container}>
               <a href="#cards" class={styles.popup_close}>
@@ -281,25 +287,29 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
+          {/* ================================================= */}
         </div>
+
+
+
         <div className={styles.cardContainer}>
+
+
+          {/*   Artificial Intelligence and Machine Learning  */}
+          {/* ================================================= */}
           <div className={styles.card}>
             <div className={styles.card_front}>
-              <h2 className="card-h2-front">
-                Artificial Intelligence and Machine Learning
-              </h2>
+              <h2 className="card-h2-front">Artificial Intelligence and Machine Learning</h2>
             </div>
             <div className={styles.card_back}>
-              <h2 className="card-h2">
-              Artificial Intelligence and Machine Learning
-              </h2>
+              <h2 className="card-h2">Artificial Intelligence and Machine Learning</h2>
               <p className="card-p">
-                The vast field of AI 
-                deals with aspects of Signal Processing, Audio and Speech
-                Processing, Computer Vision, Natural Language Processing,
-                Supervised and unsupervised learning, Deep Learning, Data
-                Mining, Generative Models, Reinforcement Learning and
-                Optimization algorithm...
+                The vast field of Artificial Intelligence and Machine learning deals with aspects
+                of Signal Processing, Audio and Speech Processing, Computer Vision, Natural
+                Language Processing, Supervised and unsupervised learning, Deep Learning,
+                Data Mining, Generative Models, Reinforcement Learning and Optimization
+                algorithm. Artificial intelligence (AI) is the simulation of human intelligence
+                processes by machines...
               </p>
               <button id="card-btn">
                 <a href="#popup-article-card04" id="card-a">
@@ -308,8 +318,7 @@ const IndexPage = () => {
               </button>
             </div>
           </div>
-
-          <div id="popup-article-card04" class={styles.popup}>
+          <div id="popup-article-card05" class={styles.popup}>
             <div class={styles.popup_container}>
               <a href="#cards" class={styles.popup_close}>
                 <span class={styles.screen_reader}>close</span>
@@ -320,8 +329,7 @@ const IndexPage = () => {
                 </h1>
                 <p className="p-track"></p>{" "}
                 <p className="p-track">
-                  Dr. Deepak Kumar Jain, Associate Professor <br />
-                  Chongqing University of Posts and Telecommunications, China
+                  Dr. Shailender Kumar, Associate Professor <br /> DTU, New Delhi, India
                 </p>
                 <p className="p-track"></p>{" "}
                 <p className="p-track">
@@ -350,6 +358,10 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
+          {/* ================================================= */}
+
+          {/*             HEALTHCARE 4.0                        */}
+          {/* ================================================= */}
           <div className={styles.card}>
             <div className={styles.card_front}>
               <h2 className="card-h2-front">Healthcare 4.0</h2>
@@ -360,7 +372,7 @@ const IndexPage = () => {
                 The goal of accelerating medical innovation while enhancing the effectiveness
                 of patient care becomes a reality in Healthcare 4.0, the fourth healthcare
                 revolution. Smart healthcare has steadily gained attention as information
-                technology has advanced. Utilizing a new generation of information
+                technology has advanced...
               </p>
               <button id="card-btn">
                 <a href="#popup-article-card04" id="card-a">
@@ -369,43 +381,56 @@ const IndexPage = () => {
               </button>
             </div>
           </div>
-
-          <div id="popup-article-card05" class={styles.popup}>
+          <div id="popup-article-card04" class={styles.popup}>
             <div class={styles.popup_container}>
               <a href="#cards" class={styles.popup_close}>
                 <span class={styles.screen_reader}>close</span>
               </a>
               <div class={styles.popup__content}>
                 <h1 class={`${styles.popup_title} ${styles.r_title}`}>
-                  Cyber Security Security
+                  HEALTHCARE 4.0
                 </h1>
                 <p className="p-track"></p>{" "}
                 <p className="p-track">
-                  Dr. Deepak Singh Tomar, Associate Professor <br /> MANIT Bhopal
+                  Dr. Deepak Kumar Jain, Associate Professor <br />
+                  Chongqing University of Posts and Telecommunications, China
                 </p>
                 <p className="p-track"></p>{" "}
                 <p className="p-track">
-                  Prof. Mayank Dave, Professor <br /> NIT Kurukshetra
+                  Dr. Deepak Ranjan Nayak, Assistant Professor <br />
+                  NIT Jaipur, India
                 </p>
                 <p className="p-popup">
-                  This track emphasizes on emerging research areas in cyber
-                  security and privacy. It includes cyber security concepts,
-                  threats in cyberspace, security standardization, security and
-                  privacy regulations and laws, cyber hacking, digital forensics,
-                  Trust management, security and privacy in blockchain
-                  technologies, intrusion detection and prevention, cyberspace
-                  protection and anti-malware, network traffic analysis,
-                  identity and access management in cyber systems, cyber threat
-                  intelligence, cryptography trends, steganography, security of
-                  cyber-physical systems and IoT, secure cloud and edge
-                  computing architectures, security of web-based applications,
-                  and cyber harmony and cyber welfare.
+                  The goal of accelerating medical innovation while enhancing the effectiveness
+                  of patient care becomes a reality in Healthcare 4.0, the fourth healthcare
+                  revolution. Smart healthcare has steadily gained attention as information
+                  technology has advanced. Utilizing a new generation of information
+                  technologies, including the Internet of things (loT), big data, cloud computing,
+                  and artificial intelligence, computer vision, smart healthcare is able to
+                  completely revolutionize the current medical system, making it more effective,
+                  convenient, and individualized.
+                </p>
+                <p className="p-popup">
+                  Planners in the healthcare sector and
+                  government health institutions are looking to technology to deliver healthcare
+                  that is smarter, faster, and more responsive. The healthcare industry has
+                  benefited greatly from this technological development, which has improved
+                  the efficiency and security of patient treatment. Healthcare professionals are
+                  progressively adopting new digital trends, such as wearable gadgets that allow
+                  patients to supplement their health data and networked equipment that
+                  enable remote monitoring and patient care. This track provides the
+                  opportunity to learn the recent research trends and future scope of smart
+                  healthcare.
                 </p>
               </div>
             </div>
           </div>
+          {/* ================================================= */}
+
         </div>
       </div>
+
+
       <div className={styles.OrganisingCommittee}>
 
         <h2 className={`h2 ${styles.OrganisingCommittee_heading}`}>

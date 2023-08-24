@@ -9,10 +9,10 @@ const PackageCard = ({ ieee, nonIeee, title }) => {
   return (
     <div className={styles.PackageCard}>
       <h3 className={styles.PackageCard_title}>{title}</h3>
-      <h4 className={styles.PackageCard_price}>{ieee}</h4>
       <div className={styles.PackageCard_label}>IEEE</div>
-      <h4 className={styles.PackageCard_price}>{nonIeee}</h4>
+      <h4 className={styles.PackageCard_price}>{ieee}</h4>
       <div className={styles.PackageCard_label}>Non-IEEE</div>
+      <h4 className={styles.PackageCard_price}>{nonIeee}</h4>
     </div>
   );
 };
@@ -34,7 +34,7 @@ const Packages = () => {
         <PackageCard
           title="Researcher"
           ieee={indian ? "INR 7000" : "USD 300"}
-          nonIeee={indian ? "INR 4000" : "USD 350"}
+          nonIeee={indian ? "INR 8400" : "USD 350"}
         />
         <PackageCard
           title="Student"
@@ -98,7 +98,7 @@ function SubmissionPage() {
           <li className={styles.SubmissionPage_notes}>
             {" "}
             Authors should submit their original unpublished work in PDF format
-            to ICCSSAT 2023.
+            to ICSCCAT 2024.
           </li>
           <li className={styles.SubmissionPage_notes}>
             Simultaneous submissions (papers already submitted to other
